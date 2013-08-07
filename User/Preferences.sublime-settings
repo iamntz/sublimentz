@@ -81,12 +81,9 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"sublimetext-markdown-preview",
 		"Vintage",
-		"HTML",
 		"CSS",
-		"Sublime-JSHint",
-		"SublimeLinter"
+		"HTML"
 	],
 	"indent_guide_options":
 	[
