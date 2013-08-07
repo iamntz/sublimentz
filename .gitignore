@@ -1,0 +1,29 @@
+*
+!JavaScript
+!JavaScript/*
+
+!.gitignore
+
+!readme.md
+!User
+!User/*
+!User/**/*
+
+User/Package Control.ca-bundle
+User/Package Control.ca-list
+User/Package Control.last-run
+User/Package Control.cache
+
+User/Gist.sublime-settings
+
+User/subclrschm.exe
+User/subclrschm.log
+User/ColorSchemeEditorTemp/
+
+User/codeivate-st.sublime-settings
+User/GitHub.sublime-settings
+
+User/swi.sublime-settings
+
+old/
+User/desktop.ini
