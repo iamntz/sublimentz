@@ -1,0 +1,20 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+			{
+				"caption": "MarkdownPad2",
+				"id": "side-bar-files-open-with-markdownpad",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files (x86)\\MarkdownPad 2\\MarkdownPad2.exe",
+									"extensions":[ ".md", "markdown" ]
+								}
+			},
+
+			{"caption":"-"}
+		]
+	}
+]

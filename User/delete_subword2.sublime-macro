@@ -1,0 +1,17 @@
+[
+	{
+		"args":
+		{
+			"by": "subwords",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"forward": true
+		},
+		"command": "delete_word"
+	}
+]

@@ -1,0 +1,12 @@
+{
+    "files": [],
+    "groups": {
+        "Configs": [
+            "C:\\Windows\\System32\\Drivers\\etc\\hosts",
+            "C:\\xampp2\\apache\\conf\\custom\\httpd-vhosts.conf",
+            "C:\\xampp2\\apache\\conf\\httpd.conf",
+            "C:\\xampp2\\php\\php.ini"
+        ]
+    },
+    "version": 1
+}

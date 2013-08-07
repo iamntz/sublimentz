@@ -1,0 +1,35 @@
+[
+
+	{
+		"button": "button1", "modifiers": ["ctrl", "alt"],
+		"press_command": "goto_definition"
+	},
+
+  { "button": "scroll_down", "modifiers": ["ctrl"], "command": "noop" },
+  { "button": "scroll_up", "modifiers": ["ctrl"], "command": "noop" },
+
+
+  {
+    "button": "button1", "count": 1, "modifiers": ["button2"],
+    "command": "expand_selection", "args": {"to": "brackets"},
+    "press_command": "drag_select"
+  },
+
+  {
+    "button": "button1", "count": 2, "modifiers": ["button2"],
+    "press_command": "fold",
+    "context": [
+      { "key": "selection_empty", "operator": "not_equal", "operand": true, "match_all": true }
+    ]
+    // "press_args": {"by": "columns"}
+  },
+
+
+  {
+    "button": "button1", "count" : 3,
+    "press_command": "unfold"
+  },
+
+  // "command": "expand_selection", "args": {"to": "brackets"}
+
+]

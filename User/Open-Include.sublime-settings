@@ -1,0 +1,7 @@
+{
+    // Setting this to `true` will open every http link in your default browser
+    "open_http_in_browser": true,
+
+    //will create the file if not exists
+    "create_if_not_exists" : true
+}

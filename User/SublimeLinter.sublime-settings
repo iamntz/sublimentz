@@ -1,0 +1,15 @@
+{
+    "jshint_options":
+    {
+        "browser": true,
+        "evil": true,
+        "lastsemic": false,
+        "laxcomma": true,
+        "regexdash": true,
+        "sub": true,
+        "trailing": true,
+        "wsh": true,
+        "asi":true
+    },
+    "sublimelinter_notes": true
+}

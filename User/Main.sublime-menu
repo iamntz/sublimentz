@@ -1,0 +1,20 @@
+[{
+  "caption": "User Settings",
+  "id": "User_Settings",
+  "children": [
+    {
+      "command": "open_file", "args":
+      {
+        "file": "${packages}/User/Default.sublime-keymap"
+      },
+      "caption": "Key Bindings"
+    },
+    {
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Preferences.sublime-settings"
+        },
+        "caption": "Settings "
+    },
+  ]
+}]

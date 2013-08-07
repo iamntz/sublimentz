@@ -1,0 +1,12 @@
+[
+  { "caption": "> Gist", "command": "private_gist_from_selection" },
+
+  { "caption": "> Apache: Restart", "command": "exec", "args" : { "cmd" : "C:\\xampp2\\apache\\bin\\httpd.exe -k restart" }  },
+  { "caption": "> Apache: edit httpd.conf", "command": "open_file", "args" : { "file" : "/C/xampp2/apache/conf/httpd.conf" } },
+  { "caption": "> Apache: edit php.ini", "command": "open_file", "args" : { "file" : "/C/xampp2/php/php.ini" } },
+  { "caption": "> Apache: edit HOSTS file", "command": "open_file", "args" : { "file" : "/C/Windows/System32/Drivers/etc/hosts" } },
+  { "caption": "> Apache: open vhosts directory", "command": "open_dir", "args": { "dir": "C:\\xampp2\\apache\\conf\\custom" } },
+
+  { "caption": "> Edit AutoHotkey File", "command": "open_file", "args" : { "file" : "/C/Users/Ionut Staicu/Documents/AutoHotkey.ahk" } },
+  { "caption": "> Autohotkey Restart", "command": "exec", "args" : { "cmd" : "C:\\Program Files\\AutoHotkey\\AutoHotkey.exe /restart" }  },
+]

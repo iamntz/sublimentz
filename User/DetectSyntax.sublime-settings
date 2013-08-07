@@ -1,0 +1,20 @@
+{
+	"new_file_syntax": "HTML",
+
+	// Put your custom syntax rules here:
+	"syntaxes": [
+    {
+      "name": "SCSS",
+      "rules": [
+        {"file_name": ".*\\.scss$"}
+      ]
+    },
+    {
+      "name": "jQuery",
+      "rules": [
+        {"file_name": ".*\\.js$"},
+        {"file_name": ".*\\.jquery\\,js$"}
+      ]
+    }
+	]
+}

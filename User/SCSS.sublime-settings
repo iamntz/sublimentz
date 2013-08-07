@@ -1,0 +1,10 @@
+{
+	"extensions":
+	[
+		"scss",
+		"scss.erb",
+		"scss"
+	],
+  "alignment_chars": ["=", ":"],
+  "alignment_space_chars": [":"],
+}
