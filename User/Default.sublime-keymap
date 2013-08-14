@@ -201,11 +201,11 @@
   ,{ "keys": [ "ctrl+e" ], "args": { "action": "expand_abbreviation" }, "command": "run_emmet_action" }
 
   ,{
-      "keys": [ "ctrl+shift+forward_slash" ], 
-      "args": { "action": "toggle_comment" }, 
-      "command": "run_emmet_action", 
+      "keys": [ "ctrl+shift+forward_slash" ],
+      "args": { "action": "toggle_comment" },
+      "command": "run_emmet_action",
       "context": [{
-        "operand": "source.css - source.css.less, text.xml, text.html - source", 
+        "operand": "source.css - source.css.less, text.xml, text.html - source",
         "operator": "equal",  "match_all": true, "key": "selector" } ]
   }
 
@@ -215,7 +215,7 @@
   ,{ "keys": [ "ctrl+shift+." ], "args": { "action": "match_pair_outward" }, "command": "run_emmet_action", }
 
   // ,{
-  //   "keys": [ "shift+ctrl+r" ], 
+  //   "keys": [ "shift+ctrl+r" ],
   //   "args": { "action": "reflect_css_value" }, "command": "run_emmet_action"
   // }
 
@@ -231,39 +231,39 @@
   ,{ "keys": ["ctrl+shift+a"], "command": "rename_tag" }
   ,{ "keys": [ "ctrl+alt+j" ], "args": { "action": "matching_pair" }, "command": "run_emmet_action"}
 
-  // the following autohotkey script will bind Capslock to ctrl+insert. 
+  // the following autohotkey script will bind Capslock to ctrl+insert.
   // if you still need old capslock functionality, just press shift+caps
 
   // +Capslock::Capslock
   // Capslock::^Insert
   ,{
-    "keys": [ "ctrl+insert" ], 
-    "command": "expand_abbreviation_by_tab", 
+    "keys": [ "ctrl+insert" ],
+    "command": "expand_abbreviation_by_tab",
     "context": [
       {
-        "operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html, text.haml, text.scala.html, source string", 
+        "operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html, text.haml, text.scala.html, source string",
         "operator": "equal", "match_all": true, "key": "selector"
-      }, 
+      },
       {
-        "operand": "text.html source.php, text.html source.js, storage.type.templatetag.django", 
+        "operand": "text.html source.php, text.html source.js, storage.type.templatetag.django",
         "operator": "not_equal", "match_all": true, "key": "selector"
-      }, 
-      { "match_all": true, "key": "selection_empty" }, 
+      },
+      { "match_all": true, "key": "selection_empty" },
       { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
-      { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" }, 
+      { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
       { "match_all": true, "key": "is_abbreviation" }
     ]
   }
 
 
   ,{
-    "keys": [ "enter" ], 
-    "args": { "contents": "\n\t${0}\n" }, 
-    "command": "insert_snippet", 
+    "keys": [ "enter" ],
+    "args": { "contents": "\n\t${0}\n" },
+    "command": "insert_snippet",
     "context": [
-      { "operand": "meta.scope.between-tag-pair.html, meta.scope.between-tag-pair.xml", "match_all": true, "key": "selector" }, 
-      { "operand": false, "match_all": true, "key": "auto_complete_visible" }, 
-      { "match_all": true, "key": "clear_fields_on_enter_key" }, 
+      { "operand": "meta.scope.between-tag-pair.html, meta.scope.between-tag-pair.xml", "match_all": true, "key": "selector" },
+      { "operand": false, "match_all": true, "key": "auto_complete_visible" },
+      { "match_all": true, "key": "clear_fields_on_enter_key" },
     ]
   }
 ]

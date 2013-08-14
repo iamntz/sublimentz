@@ -20,15 +20,19 @@
 		"Inc-Dec-Value",
 		"INI",
 		"JSONLint",
+		"Laravel Blade Highlighter",
 		"LiveStyle",
 		"Local History",
+		"Markdown Preview",
 		"Open-Include",
 		"Package Control",
 		"PlainTasks",
 		"Razor",
+		"SFTP",
 		"sublime-github",
 		"SublimeTODO",
 		"Theme - Soda",
+		"Vintageous",
 		"WordHighlight"
 	],
 	"repositories":
@@ -46,6 +50,9 @@
 		"https://github.com/SublimeText/SideBarGit/tree/st3",
 		"https://github.com/facelessuser/BracketHighlighter/tree/BH2ST3",
 		"https://github.com/randy3k/AlignTab",
-		"https://github.com/SublimeText/PowerShell"
+		"https://github.com/SublimeText/PowerShell",
+		"https://github.com/revolunet/sublimetext-markdown-preview",
+		"https://github.com/guillermooo/Vintageous_Plugin_Surround.git",
+		"https://github.com/guillermooo/Vintageous.git"
 	]
 }
