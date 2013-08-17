@@ -9,7 +9,12 @@
 	"clear_fields_on_enter_key": true,
 
 	"snippets": {
-		// custom snippets definitions, as per https://github.com/sergeche/zen-coding/blob/v0.7.1/snippets.json
+		// custom snippets definitions, http://docs.emmet.io/customization/snippets/
+		"css" : {
+			"abbreviations" : {
+				"rad" : "border-radius:$1"
+			}
+		},
 		"html": {
 			"abbreviations": {
 				"php"   : "<?php"
@@ -39,9 +44,10 @@
 		"css.valueSeparator": ":",
 		"css.gradient.oldWebkit" : false,
 		"filter.commentAfter" : "<!-- /<%= attr(\"id\", \"#\") %><%= attr(\"class\", \".\") %> -->",
-		"filter.commentTrigger" : "id, class"
+		"filter.commentTrigger" : "id, class",
+		"css.autoInsertVendorPrefixes" : false
 	},
-	
+
 	"emmet_action_enabled" : {
 	}
 }
