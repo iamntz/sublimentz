@@ -1,0 +1,16 @@
+/*MarkdownLive: Settings - User
+Edit this file and `MarkdownLive: Reload Server` from Command
+Then Reload the WebBrowserViewer-> localhost:9999*/
+{
+  "markedSettings": {
+    "gfm": true,
+    "breaks": true,
+    "tables": true,
+    "pedantic": true,
+    "sanitize": false,
+    "smartLists": false,
+    "smartypants": true,
+    "langPrefix": "lang-"
+  },
+  "newlinesAsIs": false
+}

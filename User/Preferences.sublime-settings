@@ -80,10 +80,13 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		".git",
 		"CSS",
 		"Vintage",
-		"HTML"
+		".git",
+		"HTML",
+		"AndyPHP",
+		"LiveStyle",
+		"MarkdownLive"
 	],
 	"indent_guide_options":
 	[

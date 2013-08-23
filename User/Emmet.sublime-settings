@@ -5,14 +5,24 @@
 	"disabled_keymap_actions": "all",
 	"disable_tab_abbreviations_for_scopes": "source.scss source.css source.php",
 	"css_completions_scope": "foo",
-	// exit tabstop mode when enter key is pressed
 	"clear_fields_on_enter_key": true,
 
 	"snippets": {
 		// custom snippets definitions, http://docs.emmet.io/customization/snippets/
 		"css" : {
 			"abbreviations" : {
-				"rad" : "border-radius:$1"
+				"rad" : "border-radius:$1;$0"
+				,"bs" : "box-shadow:$1$2$3$4;$0"
+				,"abs" : "position:absolute;"
+				,"rel" : "position:relative;"
+				,"ma" : "margin:auto;"
+				,"maw" : "max-width:$1;$0"
+				,"mh" : "min-height:$1;$0"
+				,"fl" : "float:left;"
+				,"lsn" : "list-style:none;"
+				,"con" : "content:$1;$0"
+				,"bor" : "border:$1$2$3;$0"
+				,"tal" : "text-align:left;"
 			}
 		},
 		"html": {
@@ -36,7 +46,8 @@
 				,"cc:ie8" : "<!--[if IE 8]>\n\t${child}|\n<![endif]-->"
 				,"cc:ie9" : "<!--[if IE 9]>\n\t${child}|\n<![endif]-->"
 				// ,"p" : "<p>\n\t${child}|\n</p>"
-			}
+			},
+			"filters" : "html, c"
 		}
 	},
 	"preferences": {
