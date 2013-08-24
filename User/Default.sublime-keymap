@@ -11,7 +11,9 @@
   ,{ "keys": ["f8"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "> "} }
 
 
-  ,{ "keys": ["alt+w"], "command": "toggle_single_line" } // basically this work on css
+  ,{ "keys": ["alt+w"], "command": "toggle_single_line" }
+  ,{ "keys": ["alt+["], "command": "jump_back" }
+  ,{ "keys": ["alt+]"], "command": "jump_forward" }
 
 
   ,{ "keys": ["ctrl+alt+z"], "command": "soft_undo" }

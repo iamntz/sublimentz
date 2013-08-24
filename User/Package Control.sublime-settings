@@ -8,6 +8,7 @@
 		"ApplySyntax",
 		"AutoHotkey",
 		"Backbone.js",
+		"BracketHighlighter",
 		"BufferScroll",
 		"Case Conversion",
 		"CoffeeScript",
@@ -24,7 +25,6 @@
 		"LineEndings",
 		"LiveStyle",
 		"Local History",
-		"Open-Include",
 		"Package Control",
 		"PlainTasks",
 		"Razor",
@@ -37,22 +37,19 @@
 	],
 	"repositories":
 	[
-		"https://github.com/cluther/Gist",
 		"https://github.com/facelessuser/ApplySyntax/tree/ST3",
-		"https://github.com/UNOwen/SmartMarkdown",
-		"https://github.com/akalongman/sublimetext-stringutilities/tree/ST3",
 		"https://github.com/SublimeText/BufferScroll/tree/st3",
 		"https://github.com/wbond/sublime_package_control/tree/python3",
 		"https://github.com/martomo/SublimeXdebug",
-		"https://github.com/SublimeText/Open-Include/tree/st3",
 		"https://github.com/dnatag/SublimeTODO",
 		"https://sublime.wbond.net/alpha/packages.json",
 		"https://github.com/SublimeText/SideBarGit/tree/st3",
-		"https://github.com/facelessuser/BracketHighlighter/tree/BH2ST3",
 		"https://github.com/randy3k/AlignTab",
 		"https://github.com/SublimeText/PowerShell",
 		"https://github.com/revolunet/sublimetext-markdown-preview",
 		"https://github.com/guillermooo/Vintageous_Plugin_Surround.git",
-		"https://github.com/guillermooo/Vintageous.git"
+		"https://github.com/guillermooo/Vintageous.git",
+		"https://github.com/skyronic/Gobble",
+		"https://github.com/akalongman/sublimetext-stringutilities/tree/ST3"
 	]
 }

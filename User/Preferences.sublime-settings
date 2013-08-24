@@ -80,9 +80,9 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"LiveStyle",
-		".git",
 		"SublimeTextXdebug",
+		".git",
+		"LiveStyle",
 		"Vintage"
 	],
 	"indent_guide_options":
