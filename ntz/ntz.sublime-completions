@@ -1,0 +1,10 @@
+{
+  "completions":
+  [
+    { "trigger": "...",        "contents": "&#0133;" },
+    { "trigger": "Todo",        "contents": "$TM_COMMENT_START TODO: $1 $TM_COMMENT_END$0" },
+    { "trigger": "Fixme",       "contents": "$TM_COMMENT_START FIXME: $1 $TM_COMMENT_END$0" },
+    { "trigger": "Note",        "contents": "$TM_COMMENT_START NOTE: $1 $TM_COMMENT_END$0" },
+    { "trigger": "Changed",     "contents": "$TM_COMMENT_START CHANGED: $1 $TM_COMMENT_END$0" }
+  ]
+}

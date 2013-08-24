@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:var ${2:timer} = }window.set${3:[I]nterval/[T]imeoutt}${3/(i$)|(t$)|.*/?1:nterval:?2:imeout/i}( ${0:fn}, ${5:miliseconds} );
+      ]]></content>
+    <tabTrigger>time</tabTrigger>
+    <scope>source.js</scope>
+    <description>setTimeout function</description>
+</snippet>

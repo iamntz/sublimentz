@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[$TM_COMMENT_START $1 $TM_COMMENT_END$0]]></content>
+	<tabTrigger>/</tabTrigger>
+	<scope></scope>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[(function( \$, document ){${2:
+  if (!Object.create) { Object.create = function (o) { if (arguments.length > 1) { throw new Error('Object.create implementation only accepts the first parameter.'); \} function F() {\} F.prototype = o; return new F(); \}; \}
+  }
+  var ${5:plugin_name} = {
+    init: function( ${25:el} ){
+      var \$this = this;
+      this.${25} = \$( ${25} );
+      this.options = \$.extend({
+        // default options
+      }, this.${25}.data());
+      $0
+    } // init
+  };
+
+
+  \$.fn.${5} = function() {
+    return this.each(function(){
+      var obj = Object.create( ${5} );
+      obj.init( this );
+    });
+  };
+})( jQuery, document );]]></content>
+	<tabTrigger>jqplugin</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

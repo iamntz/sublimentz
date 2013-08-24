@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[$TM_COMMENT_START ==${1/./=/g}== $TM_COMMENT_END
+$TM_COMMENT_START = ${1:Comment} = $TM_COMMENT_END
+$TM_COMMENT_START ==${1/./=/g}== $TM_COMMENT_END]]></content>
+    <tabTrigger>//</tabTrigger>
+    <scope></scope>
+</snippet>
