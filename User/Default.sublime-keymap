@@ -268,4 +268,7 @@
       { "match_all": true, "key": "clear_fields_on_enter_key" },
     ]
   }
+
+  ,{ "keys": ["super+alt+."], "command": "goto_css_declaration", "args": {"goto": "next"} }
+  ,{ "keys": ["super+alt+,"],  "command": "goto_css_declaration", "args": {"goto": "prev"} }
 ]
