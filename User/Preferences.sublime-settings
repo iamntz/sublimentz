@@ -11,6 +11,7 @@
 	"auto_close_tags": false,
 	"auto_complete": true,
 	"auto_complete_delay": 500,
+	"auto_find_in_selection": true,
 	"auto_id_class": true,
 	"binary_file_patterns":
 	[
@@ -30,6 +31,7 @@
 		"*.psd"
 	],
 	"bold_folder_labels": true,
+	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/color-schemes/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
@@ -80,10 +82,13 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		".git",
+		"SFTP",
 		"SublimeTextXdebug",
+		"Vintage",
 		"LiveStyle",
-		"Vintage"
+		".git",
+		"FindKeyConflicts",
+		"SublimeCodeIntel"
 	],
 	"indent_guide_options":
 	[

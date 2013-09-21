@@ -8,7 +8,8 @@
   ,{ "keys": ["ctrl+t"], "command": "side_bar_new_file2" }
   ,{ "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" }
 
-  ,{ "keys": ["f8"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "> "} }
+  ,{ "keys": ["f8"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "> ["} }
+  ,{ "keys": ["alt+shift+`"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "|- "} }
 
 
   ,{ "keys": ["alt+w"], "command": "toggle_single_line" }
@@ -46,18 +47,21 @@
   ,{ "keys": ["ctrl+alt+shift+a"], "command": "alignment" }
   ,{ "keys": ["ctrl+alt+super+a"], "command": "align_tab" }
 
-  ,{ "keys": ["super+g"], "command": "exec", "args": {"cmd": [
-      "C:\\Program Files (x86)\\GitExtensions\\GitExtensions.exe"
-    ] }
-  }
-  ,{ "keys": ["super+shift+g"], "command": "exec", "args": {"cmd": [
-      "C:\\Program Files (x86)\\Atlassian\\SourceTree\\SourceTree.exe"
-    ] }
-  }
-  ,{ "keys": ["alt+shift+`"], "command": "exec", "args": {"cmd": [
-      "C:\\Program Files\\ConEmu\\ConEmu64.exe", "/Single"
-    ] }
-  }
+
+  // ,{ "keys": ["super+g"], "command": "exec", "args": {"cmd": [
+  //     "C:\\Program Files (x86)\\GitExtensions\\GitExtensions.exe"
+  //   ] }
+  // }
+  // ,{ "keys": ["super+shift+g"], "command": "exec", "args": {"cmd": [
+  //     "C:\\Program Files (x86)\\Atlassian\\SourceTree\\SourceTree.exe"
+  //   ] }
+  // }
+  // ,{ "keys": ["alt+shift+`"], "command": "exec", "args": {"cmd": [
+  //     "C:\\Program Files\\ConEmu\\ConEmu64.exe", "/Single"
+  //   ] }
+  // }
+
+
 
   ,{ "keys": ["ctrl+alt+shift+d"], "command": "multi_select_numbers" }
 

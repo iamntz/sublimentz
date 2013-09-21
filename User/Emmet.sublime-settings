@@ -47,16 +47,25 @@
 				,"cc:ie9" : "<!--[if IE 9]>\n\t${child}|\n<![endif]-->"
 				// ,"p" : "<p>\n\t${child}|\n</p>"
 			},
-			"filters" : "html, c"
+			"filters" : "html, c",
 		}
 	},
+
 	"preferences": {
+
 		// custom core preferences
 		"css.valueSeparator": ":",
 		"css.gradient.oldWebkit" : false,
 		"filter.commentAfter" : "<!-- /<%= attr(\"id\", \"#\") %><%= attr(\"class\", \".\") %> -->",
 		"filter.commentTrigger" : "id, class",
-		"css.autoInsertVendorPrefixes" : false
+		"css.autoInsertVendorPrefixes" : false,
+		// "bem.elementSeparator" : "-"
+	},
+
+	"syntaxProfiles": {
+		"html" : {
+			"inline_break" : 2,
+		}
 	},
 
 	"emmet_action_enabled" : {

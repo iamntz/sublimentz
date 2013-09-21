@@ -31,9 +31,11 @@
 		"SFTP",
 		"SideBarGit",
 		"sublime-github",
+		"SublimeCodeIntel",
 		"SublimeTODO",
 		"SublimeWordPressCodex",
 		"Theme - Soda",
+		"Twig",
 		"WordHighlight"
 	],
 	"repositories":
