@@ -10,7 +10,7 @@
 	"atomic_save": false,
 	"auto_close_tags": false,
 	"auto_complete": true,
-	"auto_complete_delay": 500,
+	"auto_complete_delay": 5000,
 	"auto_find_in_selection": true,
 	"auto_id_class": true,
 	"binary_file_patterns":
@@ -82,12 +82,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"SFTP",
 		"SublimeTextXdebug",
-		"Vintage",
-		"LiveStyle",
 		".git",
+		"LiveStyle",
 		"FindKeyConflicts",
+		"SFTP",
+		"Vintage",
 		"SublimeCodeIntel"
 	],
 	"indent_guide_options":
