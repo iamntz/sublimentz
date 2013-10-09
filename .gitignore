@@ -11,6 +11,10 @@
 !ntz
 !ntz/*
 
+!php
+!php/*
+!php/**/*
+
 !.gitignore
 
 !readme.md

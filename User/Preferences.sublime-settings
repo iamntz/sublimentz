@@ -71,7 +71,8 @@
 		"CVS",
 		".sass-cache",
 		".idea",
-		"node_modules"
+		"node_modules",
+		"assets/dist"
 	],
 	"font_options":
 	[
@@ -82,13 +83,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"SublimeTextXdebug",
-		".git",
-		"LiveStyle",
-		"FindKeyConflicts",
-		"SFTP",
 		"Vintage",
-		"SublimeCodeIntel"
+		"SFTP",
+		"LiveStyle",
+		".git",
+		"SublimeTextXdebug",
+		"FindKeyConflicts"
 	],
 	"indent_guide_options":
 	[

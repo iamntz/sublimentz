@@ -82,13 +82,16 @@
 				<string>#ffffff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>activeGuide</key>
 				<string>#FFFFFFc0</string>
+
 				<key>background</key>
 				<string>#272822</string>
+
 				<key>bracketContentsForeground</key>
 				<string>#F8F8F2A5</string>
 				<key>bracketContentsOptions</key>
@@ -97,26 +100,37 @@
 				<string>#00ff00</string>
 				<key>bracketsOptions</key>
 				<string></string>
+
 				<key>caret</key>
 				<string>#F8F8F0</string>
+
 				<key>findHighlight</key>
 				<string>#FFE792</string>
+
 				<key>findHighlightForeground</key>
 				<string>#000000</string>
+
 				<key>foreground</key>
 				<string>#F8F8F2</string>
+
 				<key>guide</key>
 				<string>#9D550FB0</string>
+
 				<key>invisibles</key>
 				<string>#3B3A32</string>
+
 				<key>lineHighlight</key>
 				<string>#3E3D32</string>
+
 				<key>selection</key>
 				<string>#49483E</string>
+
 				<key>selectionBorder</key>
 				<string>#222218</string>
+
 				<key>stackGuide</key>
 				<string>#9D550FB0</string>
+
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>
 			</dict>
@@ -191,8 +205,7 @@
 			<key>name</key>
 			<string>Variable Property</string>
 			<key>scope</key>
-			<string>variable.other.property.php,
-variable.other.property</string>
+			<string>variable.other.property.php, variable.other.property</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -240,7 +253,7 @@ variable.other.property</string>
 			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class</string>
+			<string>entity.name.class, meta.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -463,6 +476,15 @@ variable.other.property</string>
 			</dict>
 		</dict>
 		<dict>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE81FFA0</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>name</key>
 			<string>Embedded Code</string>
 			<key>scope</key>
@@ -475,7 +497,7 @@ variable.other.property</string>
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>entity.name.filename.find-in-files</string>
+			<string>entity.name.filename.find-in-files, entity.name.filename</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -557,6 +579,17 @@ variable.other.property</string>
 			<dict>
 				<key>foreground</key>
 				<string>#ff458d</string>
+			</dict>
+		</dict>
+
+
+		<dict>
+			<key>scope</key>
+			<string>message.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F83333</string>
 			</dict>
 		</dict>
 	</array>
