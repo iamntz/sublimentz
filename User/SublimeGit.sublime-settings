@@ -1,8 +1,0 @@
-{
-  "git_executables": {
-    "git": ["git"],
-    "git_flow": ["git", "flow"],
-    "legit": ["legit"],
-    "gitk": ["gitk"]
-  },
-}
