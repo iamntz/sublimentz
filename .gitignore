@@ -1,12 +1,19 @@
 *
 !JavaScript
+!JavaScript/**/*
 !JavaScript/*
 
 !HTML
+!HTML/**/*
 !HTML/*
 
 !SCSS
+!SCSS/**/*
 !SCSS/*
+
+!CSS
+!CSS/*
+!CSS/**/*
 
 !ntz
 !ntz/*
@@ -43,5 +50,4 @@ User/desktop.ini
 
 User/MarkdownPreview.sublime-settings
 
-User/SublimeGit.sublime-settings
 User/SublimeGit.sublime-settings

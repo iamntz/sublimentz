@@ -1,0 +1,34 @@
+<snippet>
+  <content><![CDATA[
+\$arrowColor      : ${5:#fff};
+\$arrowShadowColor: ${10:rgba(0,0,0,.5)};
+\$arrowPositionY  : ${15:10px};
+\$arrowPositionX  : ${20:100px};
+
+${50:&}:before,
+$50:after {
+  position:absolute;
+  content:" ";
+  width:0;
+  height:0;
+  border:5px solid transparent;
+  border-bottom-color: \$arrowColor; /* arrow pointing up */
+  border-top-color: \$arrowColor; /* arrow pointing down */
+  right:\$arrowPositionX;
+  top:-#{\$arrowPositionY};
+  z-index:10;
+}
+
+$50:after {
+  border-width:6px;
+  border-bottom-color: \$arrowShadowColor;
+  z-index:9;
+  right:#{\$arrowPositionX - 1};
+  top:-#{\$arrowPositionY + 2};
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>arr</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sass, source.scss, source.css</scope>
+</snippet>
