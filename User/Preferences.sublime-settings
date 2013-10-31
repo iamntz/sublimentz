@@ -31,6 +31,7 @@
 		"*.psd"
 	],
 	"bold_folder_labels": true,
+	"caret_style": "phase",
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/color-schemes/Monokai.tmTheme",
 	"default_line_ending": "unix",
@@ -84,14 +85,14 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		".git",
-		"SublimeTextXdebug",
-		"SFTP",
 		"LiveStyle",
 		"Vintage",
+		"SublimeTextXdebug",
+		"Backbone.js",
 		"SublimeCodeIntel",
+		"SFTP",
 		"FindKeyConflicts",
-		"Backbone.js"
+		".git"
 	],
 	"indent_guide_options":
 	[

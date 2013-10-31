@@ -14,6 +14,8 @@
 
   ,{ "keys": ["f8"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "> ["} }
   ,{ "keys": ["alt+shift+`"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "|- "} }
+  ,{ "keys": ["f9"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "git "} }
+  ,{ "keys": ["shift+f9"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "git flow "} }
 
 
   ,{ "keys": ["alt+w"], "command": "toggle_single_line" }
