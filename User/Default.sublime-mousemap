@@ -24,11 +24,17 @@
     // "press_args": {"by": "columns"}
   },
 
-
   {
-    "button": "button1", "count" : 3,
-    "press_command": "unfold"
+    "button": "button4", "modifiers": ["button2"],
+    "press_command": "goto_definition"
   },
+
+
+  { "button": "button1", "count" : 3, "press_command": "unfold" },
+
+  { "button": "button4", "count" : 1, "press_command": "jump_back" },
+
+  { "button": "button5", "count" : 1, "press_command": "jump_forward" },
 
   // "command": "expand_selection", "args": {"to": "brackets"}
 

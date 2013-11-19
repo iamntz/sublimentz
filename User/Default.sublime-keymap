@@ -4,6 +4,21 @@
   ,{ "keys": ["ctrl+'"], "command": "bh_key", "args": { "lines" : true, "plugin": { "type": ["single_quote", "double_quote", "py_single_quote", "py_double_quote"], "command": "bh_modules.swapquotes" } } }
   ,{ "keys": ["ctrl+shift+'"], "command": "swap_brackets" }
 
+  ,{ "keys": ["ctrl+i", "ctrl+8"],
+    "command": "insert_snippet",
+    "args": { "name": "Packages/ntz/WordPress/i8n.sublime-snippet" },
+    "context" : [{
+          "operand": "source.php",
+          "operator": "equal", "match_all": true, "key": "selector"
+      }] }
+
+  ,{ "keys": ["ctrl+i", "ctrl+8"],
+    "command": "insert_snippet",
+    "args": { "name": "Packages/ntz/WordPress/i8n_echo.sublime-snippet" },
+    "context" : [{
+          "operand": "source.php",
+          "operator": "not_equal", "match_all": true, "key": "selector"
+      }] }
 
   ,{ "keys": ["alt+ctrl+space"], "command": "code_intel_auto_complete" }
 

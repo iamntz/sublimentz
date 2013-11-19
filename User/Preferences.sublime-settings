@@ -7,10 +7,10 @@
 		"=>"
 	],
 	"alt_gr": true,
-	"atomic_save": true,
+	"atomic_save": false,
 	"auto_close_tags": false,
-	"auto_complete": true,
-	"auto_complete_delay": 5000,
+	"auto_complete": false,
+	"auto_complete_delay": 50000,
 	"auto_find_in_selection": true,
 	"auto_id_class": true,
 	"binary_file_patterns":
@@ -35,7 +35,6 @@
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/color-schemes/Monokai.tmTheme",
 	"default_line_ending": "unix",
-	"draw_white_space": "all",
 	"enable_emmet_keymap": false,
 	"fade_fold_buttons": false,
 	"fallback_encoding": "UTF-8",
@@ -79,30 +78,28 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignored_packages":
 	[
+		"SublimeTextXdebug",
+		"FindKeyConflicts",
+		"Backbone.js",
+		".git",
 		"LiveStyle",
 		"Vintage",
-		"SublimeTextXdebug",
-		"Backbone.js",
 		"SublimeCodeIntel",
-		"SFTP",
-		"FindKeyConflicts",
-		".git"
+		"Razor"
 	],
 	"indent_guide_options":
 	[
-		"draw_normal",
 		"draw_active"
 	],
-	"indent_to_bracket": false,
 	"inverse_caret_state": false,
-	"line_padding_bottom": 2.5,
-	"line_padding_top": 2.5,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"move_to_limit_on_up_down": true,
 	"overlay_scroll_bars": "enabled",
 	"rulers":

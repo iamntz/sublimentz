@@ -493,6 +493,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#66d9ef</string>
+				<key>background</key>
+				<string>#66d9ef10</string>
 			</dict>
 		</dict>
 		<dict>
@@ -502,17 +504,9 @@
 			<dict>
 				<key>foreground</key>
 				<string>#E6DB74</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Embedded Code</string>
-			<key>scope</key>
-			<string>punctuation.section.embedded.begin, punctuation.section.embedded.end</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#66d9ef</string>
+
+				<key>background</key>
+				<string>#66d9ef10</string>
 			</dict>
 		</dict>
 		<dict>
