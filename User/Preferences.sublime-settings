@@ -31,11 +31,18 @@
 		"*.psd"
 	],
 	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/color-schemes/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"enable_emmet_keymap": false,
+	"faceless_active_bar": true,
+	"faceless_dark_blue": true,
+	"faceless_dark_dirty_blue": true,
+	"faceless_sidebar_tree_medium": true,
 	"fade_fold_buttons": false,
 	"fallback_encoding": "UTF-8",
 	"file_exclude_patterns":
@@ -72,6 +79,7 @@
 		".sass-cache",
 		".idea",
 		"node_modules",
+		"mustcache",
 		"assets/dist"
 	],
 	"font_options":
@@ -84,14 +92,16 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"SublimeTextXdebug",
-		"FindKeyConflicts",
-		"Backbone.js",
-		".git",
-		"LiveStyle",
 		"Vintage",
+		"Razor",
+		"Markdown",
+		"Vintage Surround",
+		"Backbone.js",
 		"SublimeCodeIntel",
-		"Razor"
+		"SublimeTextXdebug",
+		".git",
+		"Vintageous",
+		"SQL"
 	],
 	"indent_guide_options":
 	[
@@ -107,7 +117,8 @@
 		120
 	],
 	"shift_tab_unindent": true,
-	"show_tab_close_buttons": false,
+	"show_line_endings": true,
+	"show_tab_close_buttons": true,
 	"soda_folder_icons": true,
 	"sublimelinter_disable":
 	[
@@ -116,7 +127,7 @@
 		"sass"
 	],
 	"tab_size": 2,
-	"theme": "Soda Dark 3.sublime-theme",
+	"theme": "Faceless Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": true,
 	"trim_trailing_white_space_on_save": true,

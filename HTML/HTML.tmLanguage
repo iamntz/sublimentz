@@ -283,7 +283,8 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string><string>(?:^\s+)?(&lt;)((?i:script))\b(?!([^&gt;]*text/template[^&gt;]*|[^&gt;]*/>))</string></string>
+			<string>(?:^\s+)?(&lt;)((?i:script))\b(?!([^&gt;]*text/template[^&gt;]*|[^&gt;]*/>))</string>
+			<!-- <string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*/&gt;)(?!.*&lt;/script&gt;)</string> -->
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -449,6 +450,44 @@
 				</dict>
 			</array>
 		</dict>
+
+		<dict>
+		   <key>begin</key>
+		   <string>(&lt;/?)((?i:title)\b)</string>
+		   <key>beginCaptures</key>
+		   <dict>
+		      <key>1</key>
+		      <dict>
+		         <key>name</key>
+		         <string>punctuation.definition.tag.title.begin.html</string>
+		      </dict>
+		      <key>2</key>
+		      <dict>
+		         <key>name</key>
+		         <string>entity.name.tag.title.html</string>
+		      </dict>
+		   </dict>
+		   <key>end</key>
+		   <string>(&gt;)</string>
+		   <key>endCaptures</key>
+		   <dict>
+		      <key>1</key>
+		      <dict>
+		         <key>name</key>
+		         <string>punctuation.definition.tag.title.end.html</string>
+		      </dict>
+		   </dict>
+		   <key>name</key>
+		   <string>meta.tag.title.html</string>
+		   <key>patterns</key>
+		   <array>
+		      <dict>
+		         <key>include</key>
+		         <string>#tag-stuff</string>
+		      </dict>
+		   </array>
+		</dict>
+
 		<dict>
 			<key>begin</key>
 			<string>(&lt;/?)((?i:a|abbr|acronym|area|b|base|basefont|bdo|big|br|button|caption|cite|code|col|colgroup|del|dfn|em|font|head|html|i|img|input|ins|isindex|kbd|label|legend|li|link|map|meta|noscript|optgroup|option|param|q|s|samp|script|select|small|span|strike|strong|style|sub|sup|table|tbody|td|textarea|tfoot|th|thead|title|tr|tt|u|var)\b)</string>

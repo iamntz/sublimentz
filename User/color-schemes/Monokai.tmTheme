@@ -90,7 +90,8 @@
 				<string>#FFFFFFc0</string>
 
 				<key>background</key>
-				<string>#272822</string>
+				<!-- <string>#272822</string> -->
+				<string>#232628</string>
 
 				<key>bracketContentsForeground</key>
 				<string>#F8F8F2A5</string>

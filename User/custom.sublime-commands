@@ -6,9 +6,9 @@
   { "caption": "> [3] Apache: edit php.ini", "command": "open_file", "args" : { "file" : "/C/xampp2/php/php.ini" } },
   { "caption": "> [4] Apache: edit HOSTS file", "command": "open_file", "args" : { "file" : "/C/Windows/System32/Drivers/etc/hosts" } },
 
-  { "caption": "> [5] Edit AutoHotkey File", "command": "open_file", "args" : { "file" : "/C/Users/Ionut Staicu/Documents/AutoHotkey.ahk" } },
-  { "caption": "> [6] Edit PowerShell File", "command": "open_file", "args" : { "file" : "/C/Users/Ionut Staicu/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1" } },
-  { "caption": "> [10] Edit .gitconfig", "command": "open_file", "args" : { "file" : "/C/Users/Ionut Staicu/.gitconfig" } },
+  { "caption": "> [5] Edit AutoHotkey File", "command": "open_file", "args" : { "file" : "/C/Users/ionut_000/Documents/AutoHotkey.ahk" } },
+  { "caption": "> [6] Edit PowerShell File", "command": "open_file", "args" : { "file" : "/C/Users/ionut_000/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1" } },
+  { "caption": "> [10] Edit .gitconfig", "command": "open_file", "args" : { "file" : "/C/Users/ionut_000/.gitconfig" } },
 
   { "caption": "> [7] Apache: open vhosts directory", "command": "open_dir", "args": { "dir": "C:\\xampp2\\apache\\conf\\custom" } },
   { "caption": "> [8] Autohotkey Restart", "command": "exec", "args" : { "cmd" : "C:\\Program Files\\AutoHotkey\\AutoHotkey.exe /restart" }  },

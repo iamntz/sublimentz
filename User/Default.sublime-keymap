@@ -225,7 +225,7 @@
   /* Emmet Keys */
   ,{ "keys": [ "shift+ctrl+;" ], "args": { "action": "remove_tag" }, "command": "run_emmet_action" }
   ,{ "keys": [ "shift+ctrl+alt+=" ], "args": { "action": "evaluate_math_expression" }, "command": "run_emmet_action" }
-  ,{ "keys": [ "ctrl+e" ], "args": { "action": "expand_abbreviation" }, "command": "run_emmet_action" }
+  // ,{ "keys": [ "ctrl+e" ], "args": { "action": "expand_abbreviation" }, "command": "run_emmet_action" }
 
   ,{
       "keys": [ "ctrl+shift+forward_slash" ],
@@ -296,4 +296,5 @@
 
   ,{ "keys": ["super+alt+."], "command": "goto_css_declaration", "args": {"goto": "next"} }
   ,{ "keys": ["super+alt+,"],  "command": "goto_css_declaration", "args": {"goto": "prev"} }
+
 ]
