@@ -1,55 +1,65 @@
 {
     "user": {
         "debug": false,
+        "delay": 0.25,
+        "error_color": "D02000",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Blueberry/cross/Blueberry - cross.gutter-theme",
+        "gutter_theme_excludes": [],
+        "lint_mode": "background",
         "linters": {
-            "C": {
+            "csslint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "jshint": {
+                "@disable": false,
                 "args": [
-                    "-xc",
-                    "-fsyntax-only",
-                    "-std=c99",
-                    "-Werror",
-                    "-pedantic"
+                    "--config",
+                    "C:\\work\\tools\\.jshintrc"
                 ],
-                "cmd": [
-                    "clang"
-                ],
-                "include": []
+                "excludes": []
             },
-            "CPP": {
-                "args": [
-                    "-xc++",
-                    "-fsyntax-only",
-                    "-std=c++11",
-                    "-Werror",
-                    "-pedantic"
-                ],
-                "cmd": [
-                    "clang++"
-                ],
-                "include": []
+            "json": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
             },
-            "CSS": {},
-            "Coffee": {},
-            "Eclim": {
-                "disable": true
+            "php": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
             },
-            "EmbeddedJS": {},
-            "Golang": {},
-            "HAML": {},
-            "HTML": {},
-            "Java": {
-                "disable": true
+            "phplint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
             },
-            "JavaScript": {},
-            "Lua": {},
-            "Nasm": {},
-            "PHP": {},
-            "Perl": {},
-            "Puppet": {},
-            "Python": {},
-            "Ruby": {},
-            "TODO": {},
-            "XML": {}
-        }
+            "scss": {
+                "@disable": true,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "mark_style": "stippled underline",
+        "no_column_highlights_line": false,
+        "paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "python_paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "rc_search_limit": 3,
+        "show_errors_on_save": false,
+        "show_marks_in_minimap": true,
+        "syntax_map": {
+            "php": "php"
+        },
+        "warning_color": "CC000077",
+        "wrap_find": true
     }
 }

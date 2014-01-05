@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[<html>
+	<content><![CDATA[<!DOCTYPE html>
+<html>
 <head>
 	<title>$1</title>
 </head>

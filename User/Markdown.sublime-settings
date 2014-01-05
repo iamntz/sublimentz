@@ -9,7 +9,7 @@
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": false,
 
-  "draw_centered": false,
+  "draw_centered": true,
   "word_wrap": true,
   "wrap_width": 80,
   "rulers": [],

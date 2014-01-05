@@ -11,6 +11,11 @@
         <key>decreaseIndentPattern</key>
         <string>(?x)
         ^\s*
+        &lt;\?(php)?\s+(else(if)?|end(if|for(each)?|while))
+        </string>
+        <key>batchDecreaseIndentPattern</key>
+        <string>(?x)
+        ^\s*
         (&lt;/(?!html)
           [A-Za-z0-9]+\b[^&gt;]*&gt;
         |--&gt;
@@ -18,6 +23,8 @@
         |\}
         )</string>
         <key>increaseIndentPattern</key>
+        <string>^\s*&lt;\?php\s*\b(if|else|elseif|for|foreach|while)\b.*:(?!.*end\1)</string>
+        <key>batchIncreaseIndentPattern</key>
         <string>(?x)
         ^\s*
         &lt;(?!\?|area|base|br|col|frame|hr|html|img|input|link|meta|param|[^&gt;]*/&gt;)

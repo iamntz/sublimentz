@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Comments</string>
 	<key>scope</key>
-	<string>text.html, source.js.embedded.html punctuation.definition.tag.begin.html</string>
+	<string>text.html</string>
 	<key>settings</key>
 	<dict>
 		<key>shellVariables</key>
@@ -14,26 +14,13 @@
 				<key>name</key>
 				<string>TM_COMMENT_START</string>
 				<key>value</key>
-				<string><![CDATA[<!--]]></string>
+				<string>&lt;!-- </string>
 			</dict>
 			<dict>
 				<key>name</key>
 				<string>TM_COMMENT_END</string>
 				<key>value</key>
-				<string><![CDATA[-->]]></string>
-			</dict>
-
-			<dict>
-				<key>name</key>
-				<string>TM_COMMENT_START_2</string>
-				<key>value</key>
-				<string><![CDATA[<!--]]></string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>TM_COMMENT_END_2</string>
-				<key>value</key>
-				<string><![CDATA[-->]]></string>
+				<string> --&gt;</string>
 			</dict>
 		</array>
 	</dict>

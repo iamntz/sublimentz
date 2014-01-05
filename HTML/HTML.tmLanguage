@@ -226,7 +226,7 @@
 		<dict>
 			<key>begin</key>
 			<string>(?:^\s+)?(&lt;)((?i:style))\b(?![^&gt;]*/&gt;)</string>
-			<key>captures</key>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
@@ -238,16 +238,19 @@
 					<key>name</key>
 					<string>entity.name.tag.style.html</string>
 				</dict>
-				<key>3</key>
+			</dict>
+			<key>end</key>
+			<string>(?&lt;=&lt;/(?:[sS][tT][yY][lL][eE]))(&gt;)(?:\s*\n)?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>punctuation.definition.tag.html</string>
 				</dict>
 			</dict>
-			<key>end</key>
-			<string>(&lt;/)((?i:style))(&gt;)(?:\s*\n)?</string>
 			<key>name</key>
-			<string>source.css.embedded.html</string>
+			<string>meta.tag.style.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -256,22 +259,41 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>(&gt;)</string>
-					<key>beginCaptures</key>
+					<string>(?&lt;!&lt;/(?:[sS][tT][yY][lL][eE]))(&gt;)</string>
+					<key>captures</key>
 					<dict>
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.tag.end.html</string>
+							<string>punctuation.definition.tag.begin.html</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>entity.name.tag.style.html</string>
 						</dict>
 					</dict>
 					<key>end</key>
-					<string>(?=&lt;/(?i:style))</string>
+					<string>(&lt;/)((?i:style))</string>
+					<key>contentName</key>
+					<string>source.css.embedded.html</string>
 					<key>patterns</key>
 					<array>
 						<dict>
-							<key>include</key>
-							<string>#embedded-code</string>
+							<key>begin</key>
+							<string>/\*</string>
+							<key>captures</key>
+							<dict>
+								<key>0</key>
+								<dict>
+									<key>name</key>
+									<string>punctuation.definition.comment.css</string>
+								</dict>
+							</dict>
+							<key>end</key>
+							<string>\*/|(?=&lt;/[sS][tT][yY][lL][eE])</string>
+							<key>name</key>
+							<string>comment.block.css</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -284,7 +306,7 @@
 		<dict>
 			<key>begin</key>
 			<string>(?:^\s+)?(&lt;)((?i:script))\b(?!([^&gt;]*text/template[^&gt;]*|[^&gt;]*/>))</string>
-			<!-- <string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*/&gt;)(?!.*&lt;/script&gt;)</string> -->
+			<!-- <string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*/&gt;)</string> -->
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -299,7 +321,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;=&lt;/(script|SCRIPT))(&gt;)(?:\s*\n)?</string>
+			<string>(?&lt;=&lt;/([sS][cC][rR][iI][pP][tT]))(&gt;)(?:\s*\n)?</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>2</key>
@@ -309,7 +331,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>source.js.embedded.html</string>
+			<string>meta.tag.script.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -318,13 +340,13 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>(?&lt;!&lt;/(?:script|SCRIPT))(&gt;)</string>
+					<string>(?&lt;!&lt;/(?:[sS][cC][rR][iI][pP][tT]))(&gt;)</string>
 					<key>captures</key>
 					<dict>
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.tag.end.html</string>
+							<string>punctuation.definition.tag.begin.html</string>
 						</dict>
 						<key>2</key>
 						<dict>
@@ -334,6 +356,8 @@
 					</dict>
 					<key>end</key>
 					<string>(&lt;/)((?i:script))</string>
+					<key>contentName</key>
+					<string>source.js.embedded.html</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -346,7 +370,7 @@
 								</dict>
 							</dict>
 							<key>match</key>
-							<string>(//).*?((?=&lt;/script)|$\n?)</string>
+							<string>(//).*?((?=&lt;/[sS][cC][rR][iI][pP][tT])|$\n?)</string>
 							<key>name</key>
 							<string>comment.line.double-slash.js</string>
 						</dict>
@@ -362,7 +386,7 @@
 								</dict>
 							</dict>
 							<key>end</key>
-							<string>\*/|(?=&lt;/script)</string>
+							<string>\*/|(?=&lt;/[sS][cC][rR][iI][pP][tT])</string>
 							<key>name</key>
 							<string>comment.block.js</string>
 						</dict>
@@ -450,44 +474,6 @@
 				</dict>
 			</array>
 		</dict>
-
-		<dict>
-		   <key>begin</key>
-		   <string>(&lt;/?)((?i:title)\b)</string>
-		   <key>beginCaptures</key>
-		   <dict>
-		      <key>1</key>
-		      <dict>
-		         <key>name</key>
-		         <string>punctuation.definition.tag.title.begin.html</string>
-		      </dict>
-		      <key>2</key>
-		      <dict>
-		         <key>name</key>
-		         <string>entity.name.tag.title.html</string>
-		      </dict>
-		   </dict>
-		   <key>end</key>
-		   <string>(&gt;)</string>
-		   <key>endCaptures</key>
-		   <dict>
-		      <key>1</key>
-		      <dict>
-		         <key>name</key>
-		         <string>punctuation.definition.tag.title.end.html</string>
-		      </dict>
-		   </dict>
-		   <key>name</key>
-		   <string>meta.tag.title.html</string>
-		   <key>patterns</key>
-		   <array>
-		      <dict>
-		         <key>include</key>
-		         <string>#tag-stuff</string>
-		      </dict>
-		   </array>
-		</dict>
-
 		<dict>
 			<key>begin</key>
 			<string>(&lt;/?)((?i:a|abbr|acronym|area|b|base|basefont|bdo|big|br|button|caption|cite|code|col|colgroup|del|dfn|em|font|head|html|i|img|input|ins|isindex|kbd|label|legend|li|link|map|meta|noscript|optgroup|option|param|q|s|samp|script|select|small|span|strike|strong|style|sub|sup|table|tbody|td|textarea|tfoot|th|thead|title|tr|tt|u|var)\b)</string>
@@ -654,7 +640,7 @@
 			<string>(?:^\s*)&lt;\?python(?!.*\?&gt;)</string>
 			<key>end</key>
 			<string>\?&gt;(?:\s*$\n)?</string>
-			<key>name</key>
+			<key>contentName</key>
 			<string>source.python.embedded.html</string>
 			<key>patterns</key>
 			<array>
@@ -697,7 +683,7 @@
 					</dict>
 					<key>end</key>
 					<string>-?%&gt;</string>
-					<key>name</key>
+					<key>contentName</key>
 					<string>source.ruby.embedded.html</string>
 					<key>patterns</key>
 					<array>
@@ -734,7 +720,7 @@
 					</dict>
 					<key>end</key>
 					<string>-?\?&gt;</string>
-					<key>name</key>
+					<key>contentName</key>
 					<string>source.ruby.nitro.embedded.html</string>
 					<key>patterns</key>
 					<array>
