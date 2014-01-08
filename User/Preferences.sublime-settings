@@ -93,22 +93,21 @@
 	"ignored_packages":
 	[
 		"Vintageous",
+		"SublimeCodeIntel",
+		"Razor",
+		"Markdown",
+		"Sublime-Text-2-Goto-CSS-Declaration",
+		"SublimeLinter-scss-lint",
 		"LiveStyle",
 		"Vintage",
-		"SublimeCodeIntel",
-		"LineEndings",
-		"Markdown",
-		"PowerShell",
-		"SublimeLinter-scss-lint",
-		"Sublime-Text-2-Goto-CSS-Declaration",
 		"Backbone.js",
-		"SublimeTextXdebug",
 		"Vintage Surround",
 		"dired",
+		"PowerShell",
+		"SublimeTextXdebug",
+		"LineEndings",
 		".git",
-		"SQL",
-		"Razor",
-		"BufferScroll"
+		"SQL"
 	],
 	"indent_guide_options":
 	[
