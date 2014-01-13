@@ -8,12 +8,11 @@
         ,{ "trigger": "pp", "contents": "print_r( $0 );" }
         ,{ "trigger": "ppd", "contents": "echo '<pre>'; print_r( $0 ); echo '</pre>'; die();" }
         ,{ "trigger": "arr", "contents": "array( $0 )" }
-        ,{ "trigger": "fore|foreach", "contents": "foreach( (array) \\$${1:array_name} as \\$${3:${5:key} => \\$${10:value}} ){\n\t$0\n}" }
+        ,{ "trigger": "fore|foreach", "contents": "foreach( \\$${1:array_name} as \\$${3:${5:key} => \\$${10:value}} ){\n\t$0\n}" }
         ,{ "trigger": "g|gl|glo", "contents": "global ${1:\\$post};$0" }
         ,{ "trigger": "hjson", "contents": "header('Content-Type: application/json');\n" }
 
 
-//wp related
     ,{ "trigger": "wpconf", "contents": "\\$ntz_site_url = 'http://${1:domain.com}/';\ndefine( 'WP_SITEURL', \\$ntz_site_url );\ndefine( 'WP_HOME', \\$ntz_site_url );\ndefine( 'WP_CONTENT_URL', \\$ntz_site_url.'/wp-content' );\ndefine( 'WP_PLUGIN_URL', \\$ntz_site_url.'/wp-content/plugins' );"}
     ,{ "trigger": "wploop", "contents": "while( ${1:\\$${5:custom_loop}->}have_posts() ){ $1the_post();\n\t$0\n}" }
 

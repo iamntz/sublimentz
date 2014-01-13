@@ -92,22 +92,19 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Vintageous",
-		"SublimeCodeIntel",
+		"LineEndings",
 		"Razor",
 		"Markdown",
-		"Sublime-Text-2-Goto-CSS-Declaration",
-		"SublimeLinter-scss-lint",
+		"SQL",
 		"LiveStyle",
-		"Vintage",
-		"Backbone.js",
-		"Vintage Surround",
-		"dired",
 		"PowerShell",
-		"SublimeTextXdebug",
-		"LineEndings",
+		"SublimeCodeIntel",
+		"Vintage",
+		"Sublime-Text-2-Goto-CSS-Declaration",
 		".git",
-		"SQL"
+		"SublimeLinter-scss-lint",
+		"Backbone.js",
+		"SublimeTextXdebug"
 	],
 	"indent_guide_options":
 	[

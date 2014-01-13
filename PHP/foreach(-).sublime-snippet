@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[foreach ( (array) \$${1:variable} as \$${2:key}${3: => \$${4:value}} ) {
+    <content><![CDATA[foreach ( \$${1:variable} as \$${2:key}${3: => \$${4:value}} ) {
 	${0:# code...}
 }]]></content>
     <tabTrigger>foreach</tabTrigger>
