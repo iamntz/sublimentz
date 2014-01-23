@@ -297,4 +297,6 @@
   ,{ "keys": ["super+alt+."], "command": "goto_css_declaration", "args": {"goto": "next"} }
   ,{ "keys": ["super+alt+,"],  "command": "goto_css_declaration", "args": {"goto": "prev"} }
 
+  // ,{ "keys": ["ctrl+shift+g"], "command": "grasp", "context": [ { "key": "selector", "operator": "equal", "operand": "source.js" } ]  }
+
 ]
