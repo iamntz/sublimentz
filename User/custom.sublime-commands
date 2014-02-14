@@ -1,16 +1,16 @@
 [
   { "caption": "> Gist", "command": "private_gist_from_selection" },
 
-  { "caption": "> [1] Apache: Restart", "command": "exec", "args" : { "cmd" : "C:\\xampp2\\apache\\bin\\httpd.exe -k restart" }  },
-  { "caption": "> [2] Apache: edit httpd.conf", "command": "open_file", "args" : { "file" : "/C/xampp2/apache/conf/httpd.conf" } },
-  { "caption": "> [3] Apache: edit php.ini", "command": "open_file", "args" : { "file" : "/C/xampp2/php/php.ini" } },
+  { "caption": "> [1] Apache: Restart", "command": "exec", "args" : { "cmd" : "C:\\xampp\\apache\\bin\\httpd.exe -k restart" }  },
+  { "caption": "> [2] Apache: edit httpd.conf", "command": "open_file", "args" : { "file" : "/C/xampp/apache/conf/httpd.conf" } },
+  { "caption": "> [3] Apache: edit php.ini", "command": "open_file", "args" : { "file" : "/C/xampp/php/php.ini" } },
   { "caption": "> [4] Apache: edit HOSTS file", "command": "open_file", "args" : { "file" : "/C/Windows/System32/Drivers/etc/hosts" } },
 
   { "caption": "> [5] Edit AutoHotkey File", "command": "open_file", "args" : { "file" : "/C/Users/ionut_000/Documents/AutoHotkey.ahk" } },
   { "caption": "> [6] Edit PowerShell File", "command": "open_file", "args" : { "file" : "/C/Users/ionut_000/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1" } },
   { "caption": "> [10] Edit .gitconfig", "command": "open_file", "args" : { "file" : "/C/Users/ionut_000/.gitconfig" } },
 
-  { "caption": "> [7] Apache: open vhosts directory", "command": "open_dir", "args": { "dir": "C:\\xampp2\\apache\\conf\\custom" } },
+  { "caption": "> [7] Apache: open vhosts directory", "command": "open_dir", "args": { "dir": "C:\\xampp\\apache\\conf\\custom" } },
   { "caption": "> [8] Autohotkey Restart", "command": "exec", "args" : { "cmd" : "C:\\Program Files\\AutoHotkey\\AutoHotkey.exe /restart" }  },
 
   { "caption": "> [9] Edit this config file", "command": "open_file", "args" : { "file" : "${packages}/User/custom.sublime-commands" } },

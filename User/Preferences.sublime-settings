@@ -79,7 +79,7 @@
 		".sass-cache",
 		".idea",
 		"node_modules",
-		"mustcache",
+		"cache*",
 		"assets/dist"
 	],
 	"font_face": "Inconsolata",
@@ -94,17 +94,15 @@
 	"ignored_packages":
 	[
 		".git",
-		"Markdown",
-		"Razor",
-		"Backbone.js",
-		"SQL",
-		"LineEndings",
-		"Vintage",
-		"SublimeTextXdebug",
 		"Sublime-Text-2-Goto-CSS-Declaration",
-		"SublimeLinter-scss-lint",
+		"Razor",
+		"SQL",
+		"Markdown",
 		"LiveStyle",
-		"PowerShell"
+		"Backbone.js",
+		"SublimeTextXdebug",
+		"SublimeGit",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -121,6 +119,7 @@
 	],
 	"shift_tab_unindent": true,
 	"show_line_endings": true,
+	"show_tab_close_buttons": false,
 	"soda_folder_icons": true,
 	"sublimelinter_disable":
 	[
@@ -132,7 +131,6 @@
 	"theme": "Faceless Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": true,
-	// "trim_trailing_white_space_on_save": true,
 	"word_wrap": false,
 	"wrap_width": 120
 }

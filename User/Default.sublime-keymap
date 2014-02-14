@@ -28,6 +28,7 @@
   ,{ "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" }
 
   ,{ "keys": ["f8"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "> ["} }
+  ,{ "keys": ["f7"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Origami"} }
   ,{ "keys": ["alt+shift+`"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "|- "} }
   ,{ "keys": ["f9"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "git "} }
   ,{ "keys": ["shift+f9"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "git flow "} }
