@@ -93,20 +93,24 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		".git",
-		"Sublime-Text-2-Goto-CSS-Declaration",
 		"Razor",
-		"SQL",
 		"Markdown",
+		"Vintage",
 		"LiveStyle",
-		"Backbone.js",
+		"Sublime-Text-2-Goto-CSS-Declaration",
 		"SublimeTextXdebug",
-		"SublimeGit",
-		"Vintage"
+		"Backbone.js",
+		"SQL",
+		".git",
+		"SublimeGit"
 	],
 	"indent_guide_options":
 	[
 		"draw_active"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log"
 	],
 	"inverse_caret_state": false,
 	"line_padding_bottom": 2,

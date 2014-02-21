@@ -28,6 +28,10 @@
     "button": "button4", "modifiers": ["button2"],
     "press_command": "goto_definition"
   },
+  {
+    "button": "button3", "modifiers": ["button2"],
+    "press_command": "open_include"
+  },
 
 
   { "button": "button1", "count" : 3, "press_command": "unfold" },
