@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[Backbone.View.extend({
+	tagName: ''
+	,events: {
+
+	}
+
+	,initialize: function(){
+
+	}
+
+	,render: function(){
+
+		return this;
+	}
+});
+]]></content>
+	<tabTrigger>bbview</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

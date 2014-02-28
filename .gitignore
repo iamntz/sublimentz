@@ -16,6 +16,7 @@
 !CSS/**/*
 
 !ntz
+!ntz/**/*
 !ntz/*
 
 !php
@@ -56,3 +57,4 @@ User/ChangeList.json
 User/bh_unicode_properties.cache
 User/npm-debug.log
 User/SFTP.errors.log
+User/Xdebug.breakpoints

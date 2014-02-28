@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[\$${1:loop_name}        = new WP_Query();
+\$$1_paged  = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+\$$1_offset = ( get_option('posts_per_page') * \$$1_paged ) - get_option('posts_per_page');
+
+\$${1}->query(array(
+  "post_type"      => "${5:post}",
+  ${10:"posts_per_page" => ${12:get_option( "posts_per_page" )},}
+  'paged'          => \$$1_paged,
+  'offset'         => \$$1_offset
+));
+
+if( \$${1}->have_posts() ){
+  while( \$${1}->have_posts() ){ \$${1}->the_post();
+    global \$post
+    $0
+  }
+}else{
+  
+}]]></content>
+	<tabTrigger>wpq</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

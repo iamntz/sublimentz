@@ -1,0 +1,4 @@
+<snippet>
+  <content><![CDATA[__( "$SELECTION", "$5" );$0]]></content>
+  <scope>source.php</scope>
+</snippet>
