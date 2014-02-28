@@ -9,6 +9,13 @@
     "new_file_syntax": false,
 
     // Put your custom syntax rules here:
-    "syntaxes": [
+    "default_syntaxes": [
+    {
+        "name": "HTML/HTML",
+        "rules": [
+            {"file_name": ".*\\.(php|inc|phtml)$"},
+            {"first_line": "^<\\?php"}
+        ]
+    },
     ]
 }
