@@ -93,17 +93,17 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"SQL",
 		"Markdown",
 		"SublimeGit",
+		"Razor",
 		"Backbone.js",
 		"Sublime-Text-2-Goto-CSS-Declaration",
-		"LiveStyle",
-		"SublimeTextXdebug",
-		"Razor",
 		".git",
+		"Xdebug Client",
 		"Vintage",
-		"Xdebug Client"
+		"SQL",
+		"SublimeTextXdebug",
+		"LiveStyle"
 	],
 	"indent_guide_options":
 	[

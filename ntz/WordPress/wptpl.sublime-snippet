@@ -10,5 +10,5 @@ Template Name: $1
   <tabTrigger>wptpl</tabTrigger>
   <description>Create a template skeleton for WordPress pages</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php</scope>
+  <scope>source.php, text.html</scope>
 </snippet>

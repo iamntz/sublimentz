@@ -3,6 +3,7 @@
 
   { "caption": "> [1] Apache: Restart", "command": "exec", "args" : { "cmd" : "C:\\xampp\\apache\\bin\\httpd.exe -k restart" }  },
   { "caption": "> [2] Apache: edit httpd.conf", "command": "open_file", "args" : { "file" : "/C/xampp/apache/conf/httpd.conf" } },
+  { "caption": "> [2] Apache: edit mysql conf", "command": "open_file", "args" : { "file" : "/C/xampp/mysql/bin/my.ini" } },
   { "caption": "> [3] Apache: edit php.ini", "command": "open_file", "args" : { "file" : "/C/xampp/php/php.ini" } },
   { "caption": "> [4] Apache: edit HOSTS file", "command": "open_file", "args" : { "file" : "/C/Windows/System32/Drivers/etc/hosts" } },
 

@@ -1,0 +1,27 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+class ${1:ClassName}_Test extends \WP_UnitTestCase {${10:
+  public function setUp(){
+    parent::setUp();
+    $12
+  \}
+
+  }${20:
+  public function tearDown(){
+    parent::tearDown();
+    $22
+  \}
+
+  }
+  public function test_true_is_true(){
+    \$this->assertFalse( true, 'failing test' );
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>wptest</tabTrigger>
+  <description>WordPress Test Case</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html, source.php</scope>
+</snippet>

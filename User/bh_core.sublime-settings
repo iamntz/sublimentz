@@ -1,142 +1,33 @@
 {
-    // Rule definitions for finding and matching brackets.
-    // Brackets are found by using regex and can use scope
-    // qualifiers exclude certain matches.
-    // Once all matches are found, the closest pair surrounding
-    // the cursor are selected.
-    // "brackets": [
-    //     // Basic brackets
-    //     {
-    //     "name": "php_keywords",
-    //         "open": "(?:^\\s*|<\\?(?:php)?\\s*)?\\b(if|foreach|for|while|switch)\\b(?=.*:\\s*(?:\\?>\\s*)?$)",
-    //         "close": "(?:^\\s*|<\\?(?:php)?\\s*)?\\b(endif|endfor|endforeach|endwhile|endswitch)\\b(?=\\s*;\\s*(?:\\?>\\s*)?$)",
-    //         "style": "brackethighlighter.php_tags",
-    //         "language_filter": "whitelist",
-    //         "scope_exclude": ["string", "comment"],
-    //         "plugin_library": "bh_modules.phpkeywords",
-    //         "language_list": ["HTML", "HTML 5", "XML", "PHP", "HTML+CFML", "ColdFusion", "ColdFusionCFC"],
-    //         "enabled": true
-    //     },
-    //     {
-    //         "name": "html",
-    //         "open": "(<)(?=[\\w\\:\\-]+(?:(?:\\s+[\\w\\-:]+(?:\\s*=\\s*(?:\"[^\"]*\"|'[^']*'|[^>\\s]+))?)*)\\s*\\/?>|\\/[\\w\\:\\-]+[^>]*>)",
-    //         "close": "(?<=<)(?:[\\w\\:\\-]+(?:(?:\\s+[\\w\\-:]+(?:\\s*=\\s*(?:\"[^\"]*\"|'[^']*'|[^>\\s]+))?)*)\\s*\\/?|\\/[\\w\\:\\-]+[^>]*)(>)",
-    //         "style": "tag",
-    //         "scope_exclude": ["string", "comment"],
-    //         "language_filter": "whitelist",
-    //         "language_list": ["HTML", "HTML 5", "XML", "PHP"],
-    //         "plugin_library": "bh_modules.tags",
-    //         "find_in_sub_search": "only",
-    //         "enabled": false
-    //     },
-
-    //     {
-    //         "name": "tag",
-    //         "open": "(<)",
-    //         "close": "(>)",
-    //         "icon": "tag",
-    //         "color": "brackethighlighter.tag",
-    //         // "style": "outline",
-    //         "language_filter": "whitelist",
-    //         "scope_exclude": ["string", "comment", "keyword.operator"],
-    //         "language_list": ["HTML", "HTML 5", "XML", "PHP", "HTML+CFML", "ColdFusion", "ColdFusionCFC"],
-    //         "plugin_library": "bh_modules.tags",
-    //         "enabled": true
-    //     },
-
-    //     {
-    //         "name": "curly",
-    //         "open": "(\\{)",
-    //         "close": "(\\})",
-    //         "style": "curly",
-    //         "scope_exclude": ["string", "comment"],
-    //         "scope_exclude_exceptions": ["string.other.math.block.environment.latex"],
-    //         "language_filter": "blacklist",
-    //         "language_list": ["Plain text"],
-    //         "find_in_sub_search": true,
-    //         "ignore_string_escape": true,
-    //         "enabled": true
-    //     },
-    //     {
-    //         "name": "round",
-    //         "open": "(\\()",
-    //         "close": "(\\))",
-    //         "style": "round",
-    //         "scope_exclude_exceptions": ["string.other.math.block.environment.latex"],
-    //         "scope_exclude": ["string", "comment"],
-    //         "language_filter": "blacklist",
-    //         "language_list": ["Plain text"],
-    //         "find_in_sub_search": true,
-    //         "ignore_string_escape": true,
-    //         "enabled": true
-    //     },
-    //     {
-    //         "name": "square",
-    //         "open": "(\\[)",
-    //         "close": "(\\])",
-    //         "style": "square",
-    //         "scope_exclude": ["string", "comment"],
-    //         "scope_exclude_exceptions": ["string.other.math.block.environment.latex"],
-    //         "language_filter": "blacklist",
-    //         "language_list": ["Plain text"],
-    //         "find_in_sub_search": true,
-    //         "ignore_string_escape": true,
-    //         "enabled": true
-    //     },
-    //     // Angle brackets and tags
-    //     {
-    //         "name": "angle",
-    //         "open": "(<)",
-    //         "close": "(>)",
-    //         "style": "angle",
-    //         "scope_exclude": ["string", "comment", "keyword.operator"],
-    //         "language_filter": "whitelist",
-    //         "language_list": ["HTML", "HTML 5", "XML", "PHP", "HTML+CFML", "ColdFusion", "ColdFusionCFC"],
-    //         "plugin_library": "bh_modules.tags",
-    //         "enabled": true
-    //     },
-    //     // CSSedit groups
-    //     {
-    //         "name": "cssedit_groups",
-    //         "open": "(/\\* *@group .*\\*/)",
-    //         "close": "(/\\* *@end *\\*/)",
-    //         "style": "default",
-    //         "scope_exclude": [],
-    //         "language_filter": "whitelist",
-    //         "language_list": ["CSS"],
-    //         "enabled": true
-    //     }
-    // ],
-
-    // Define region highlight styles
     "bracket_styles": {
-
         "default": {
             "icon": "dot",
             "color": "brackethighlighter.default",
             "style": "solid"
         },
 
-
         "unmatched": {
             "icon": "question",
             "color": "brackethighlighter.invalid",
             "style": "solid"
         },
+
         "tag": {
             "icon": "tag",
             "color": "brackethighlighter.tag",
             "style": "solid"
         },
+
         "single_quote": {
-            "icon": "single_quote"
-            // "color": "brackethighlighter.quote",
-            ,"style": "underline"
+            "icon": "single_quote",
+            "color": "brackethighlighter.quotes",
+            "style": "solid"
         },
+
         "double_quote": {
-            "icon": "double_quote"
-            // "color": "brackethighlighter.quote",
-            ,"style": "underline"
+            "icon": "double_quote",
+            "color": "brackethighlighter.quotes",
+            "style": "solid"
         }
     }
 }

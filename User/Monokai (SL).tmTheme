@@ -71,13 +71,27 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid crap</string>
+			<string>brackethighlighter invalid</string>
 			<key>scope</key>
 			<string>brackethighlighter.invalid</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
 				<string>#cc000066</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>brackethighlighter Quotes</string>
+			<key>scope</key>
+			<string>brackethighlighter.quotes</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#00000099</string>
 				<key>foreground</key>
 				<string>#ffffff</string>
 			</dict>
@@ -556,6 +570,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP: Namespace</string>
+			<key>scope</key>
+			<string>namespace.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP: Class</string>
 			<key>scope</key>
 			<string>storage.type.class.php, keyword.operator.class.php</string>
@@ -589,6 +614,16 @@
 		</dict>
 	<dict>
             <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#CC000077</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
             <string>SublimeLinter Error</string>
             <key>scope</key>
             <string>sublimelinter.mark.error</string>
@@ -606,16 +641,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#CC000077</string>
             </dict>
         </dict></array>
 	<key>uuid</key>

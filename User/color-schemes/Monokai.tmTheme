@@ -71,13 +71,27 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid crap</string>
+			<string>brackethighlighter invalid</string>
 			<key>scope</key>
 			<string>brackethighlighter.invalid</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
 				<string>#cc000066</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>brackethighlighter Quotes</string>
+			<key>scope</key>
+			<string>brackethighlighter.quotes</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#00000099</string>
 				<key>foreground</key>
 				<string>#ffffff</string>
 			</dict>

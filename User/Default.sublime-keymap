@@ -301,4 +301,5 @@
 
   // ,{ "keys": ["ctrl+shift+g"], "command": "grasp", "context": [ { "key": "selector", "operator": "equal", "operand": "source.js" } ]  }
 
+  ,{ "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" }
 ]
