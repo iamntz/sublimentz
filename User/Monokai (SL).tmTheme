@@ -570,17 +570,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: Namespace</string>
-			<key>scope</key>
-			<string>namespace.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CC0000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>PHP: Class</string>
 			<key>scope</key>
 			<string>storage.type.class.php, keyword.operator.class.php</string>

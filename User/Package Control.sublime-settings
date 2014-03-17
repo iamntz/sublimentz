@@ -19,7 +19,7 @@
 		"FindKeyConflicts",
 		"Gobble",
 		"Grails",
-		"Grasp",
+		"Grunt",
 		"HTML Mustache",
 		"ImprovedSQL",
 		"Inc-Dec-Value",
@@ -35,6 +35,7 @@
 		"PlainTasks",
 		"Razor",
 		"SFTP",
+		"SimplePHPUnit",
 		"SML (Standard ML)",
 		"SnippetMaker",
 		"sublime-github",
@@ -47,8 +48,7 @@
 		"Theme - Soda",
 		"TrailingSpaces",
 		"Twig",
-		"WordHighlight",
-		"Xdebug Client"
+		"WordHighlight"
 	],
 	"repositories":
 	[

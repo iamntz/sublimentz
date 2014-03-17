@@ -10,7 +10,7 @@
 	"atomic_save": false,
 	"auto_close_tags": false,
 	"auto_complete": false,
-	"auto_complete_delay": 50000,
+	"auto_complete_delay": 1000,
 	"auto_find_in_selection": true,
 	"auto_id_class": true,
 	"binary_file_patterns":
@@ -82,7 +82,7 @@
 		"cache*",
 		"assets/dist"
 	],
-	"font_face": "Inconsolata",
+	"font_face": "consolas",
 	"font_options":
 	[
 		"subpixel_antialias"
@@ -93,16 +93,13 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Markdown",
-		"SublimeGit",
-		"Razor",
-		"Backbone.js",
-		"Sublime-Text-2-Goto-CSS-Declaration",
-		".git",
-		"Xdebug Client",
+		"FindKeyConflicts",
 		"Vintage",
+		"Backbone.js",
 		"SQL",
-		"SublimeTextXdebug",
+		"Markdown",
+		"Razor",
+		".git",
 		"LiveStyle"
 	],
 	"indent_guide_options":
@@ -117,6 +114,7 @@
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
 	"move_to_limit_on_up_down": true,
+	"original_color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[

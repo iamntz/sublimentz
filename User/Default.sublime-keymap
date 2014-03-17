@@ -241,7 +241,7 @@
   // ,{ "keys": [ "ctrl+alt+enter" ], "command": "expand_as_you_type", "context": [ { "operand": false,  "operator": "equal", "match_all": true, "key": "setting.is_widget" }] }
 
   ,{ "keys": [ "ctrl+shift+," ], "args": { "action": "match_pair_inward" }, "command": "run_emmet_action" }
-  ,{ "keys": [ "ctrl+shift+." ], "args": { "action": "match_pair_outward" }, "command": "run_emmet_action", }
+  ,{ "keys": [ "ctrl+shift+." ], "args": { "action": "match_pair_outward" }, "command": "run_emmet_action" }
 
   // ,{
   //   "keys": [ "shift+ctrl+r" ],
@@ -299,7 +299,6 @@
   ,{ "keys": ["super+alt+."], "command": "goto_css_declaration", "args": {"goto": "next"} }
   ,{ "keys": ["super+alt+,"],  "command": "goto_css_declaration", "args": {"goto": "prev"} }
 
-  // ,{ "keys": ["ctrl+shift+g"], "command": "grasp", "context": [ { "key": "selector", "operator": "equal", "operand": "source.js" } ]  }
-
   ,{ "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" }
+  ,{ "keys": ["ctrl+b"], "command": "simple_php_unit", "context": [ { "operand": "source.php", "match_all": true, "key": "selector" } ] }
 ]
