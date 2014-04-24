@@ -93,16 +93,14 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		".git",
-		"FindKeyConflicts",
-		"Markdown",
-		"BufferScroll",
 		"Razor",
-		"Vintage",
-		"AutoFileName",
-		"SQL",
 		"Backbone.js",
-		"LiveStyle"
+		"AutoFileName",
+		"Vintage",
+		"LiveStyle",
+		"SQL",
+		".git",
+		"Markdown"
 	],
 	"indent_guide_options":
 	[

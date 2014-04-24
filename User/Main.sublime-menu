@@ -1,8 +1,27 @@
-[{
-  "caption": "User Settings",
-  "id": "User_Settings",
-  "children": [
-    { "command": "open_file", "args": { "file": "${packages}/User/Default.sublime-keymap" }, "caption": "Key Bindings" },
-    { "command": "open_file", "args": { "file": "${packages}/User/Preferences.sublime-settings" }, "caption": "Settings " },
-  ]
-}]
+[
+  { "caption": "-", "id": "separator-1"},
+
+
+  {
+    "caption" : "💽",
+    "command": "exec", "args" : { "cmd" : "C:\\Program Files\\ConEmu\\ConEmu64.exe /Single /cmd {cmd}" }
+  },
+
+  {
+    "caption" : "🔀",
+    "command": "exec", "args" : { "cmd" : "C:\\Program Files (x86)\\GitExtensions\\GitExtensions.exe" }
+  },
+
+  { "caption": "-", "id": "separator-2"},
+
+
+  {
+    "caption": "🔧",
+    "id": "User_Settings",
+    "children": [
+      { "command": "open_file", "args": { "file": "${packages}/User/Default.sublime-keymap" }, "caption": "Key Bindings" },
+      { "command": "open_file", "args": { "file": "${packages}/User/Preferences.sublime-settings" }, "caption": "Settings " },
+    ]
+  },
+
+]
