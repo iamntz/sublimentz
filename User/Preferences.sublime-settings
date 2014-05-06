@@ -93,14 +93,14 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
+		"SQL",
+		"LiveStyle",
+		".git",
+		"Markdown",
 		"Razor",
 		"Backbone.js",
 		"AutoFileName",
-		"Vintage",
-		"LiveStyle",
-		"SQL",
-		".git",
-		"Markdown"
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -131,7 +131,7 @@
 		"sass"
 	],
 	"tab_size": 2,
-	"theme": "Faceless Dark.sublime-theme",
+	"theme": "Faceless Dark@st3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": true,
 	"word_wrap": false,

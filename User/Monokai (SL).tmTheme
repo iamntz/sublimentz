@@ -603,16 +603,6 @@
 		</dict>
 	<dict>
             <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Warning</string>
             <key>scope</key>
             <string>sublimelinter.mark.warning</string>
@@ -620,6 +610,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#CC000077</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
             </dict>
         </dict><dict>
             <key>name</key>
