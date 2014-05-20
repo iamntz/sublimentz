@@ -11,6 +11,7 @@
 	"auto_close_tags": false,
 	"auto_complete": false,
 	"auto_complete_delay": 1000,
+	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin, source, text",
 	"auto_find_in_selection": true,
 	"auto_id_class": true,
 	"binary_file_patterns":
@@ -93,14 +94,15 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"SQL",
-		"LiveStyle",
 		".git",
-		"Markdown",
+		"SQL",
+		"Vintage",
+		"LiveStyle",
 		"Razor",
-		"Backbone.js",
+		"JSONLint",
+		"Markdown",
 		"AutoFileName",
-		"Vintage"
+		"Backbone.js"
 	],
 	"indent_guide_options":
 	[
