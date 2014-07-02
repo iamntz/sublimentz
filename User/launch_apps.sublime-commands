@@ -10,7 +10,9 @@
   },
 
   { "caption": "|- [5] GitExtensions", "command": "exec", "args" : { "cmd" : "C:\\Program Files (x86)\\GitExtensions\\GitExtensions.exe" }  },
-  { "caption": "|- [6] SourceTree", "command": "exec", "args" : { "cmd" : "C:\\Program Files (x86)\\Atlassian\\SourceTree\\SourceTree.exe" }  },
+
+  { "caption": "|- [6] SourceTree", "command": "exec", "args" : { "cmd" : [ "C:\\Program Files (x86)\\Atlassian\\SourceTree\\SourceTree.exe", "-f", "${project_path}" ] } },
+
   { "caption": "|- [7] ConEmu (Git Shell)", "command": "exec", "args" : { "cmd" : "C:\\Program Files\\ConEmu\\ConEmu64.exe /Single /cmd {gitbash}" }},
   { "caption": "|- [8] Grunt watch", "command": "exec", "args" : {
     "cmd" : "C:\\Program Files\\ConEmu\\ConEmu64.exe /cmdlist grunt dev -cur_console"

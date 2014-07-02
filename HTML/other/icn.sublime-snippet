@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<span class="icon">
+  <span class="$1" aria-hidden="true"></span>
+  <span class="screen-reader">$2</span>
+</span>
+]]></content>
+  <tabTrigger>icn</tabTrigger>
+  <description>ARIA compatible icons</description>
+  <scope>text.html.basic, meta.tag.inline.any.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

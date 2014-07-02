@@ -1,0 +1,73 @@
+[
+
+  { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} },
+  { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": false},
+    "context":
+    [
+      { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+    ]
+  },
+  { "keys": ["tab"], "command": "reindent", "context":
+    [
+      { "key": "setting.auto_indent", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "key": "preceding_text", "operator": "regex_match", "operand": "^$", "match_all": true },
+      { "key": "following_text", "operator": "regex_match", "operand": "^$", "match_all": true }
+    ]
+  },
+  { "keys": ["tab"], "command": "indent", "context":
+    [
+      { "key": "text", "operator": "regex_contains", "operand": "\n" }
+    ]
+  },
+  { "keys": ["tab"], "command": "next_field", "context":
+    [
+      { "key": "has_next_field", "operator": "equal", "operand": true }
+    ]
+  },
+  { "keys": ["tab"], "command": "commit_completion", "context":
+    [
+      { "key": "auto_complete_visible" },
+      { "key": "setting.auto_complete_commit_on_tab" }
+    ]
+  }
+
+// the following autohotkey script will bind Capslock to ctrl+insert.
+// if you still need old capslock functionality, just press shift+caps
+
+// +Capslock::Capslock
+// Capslock::^Insert
+
+  ,{"keys": ["ctrl+alt+insert"], "command": "single_selection", "context": [ { "key": "num_selections", "operator": "not_equal", "operand": 1 } ] }
+  ,{"keys": ["ctrl+alt+insert"], "command": "clear_fields", "context": [ { "key": "has_next_field", "operator": "equal", "operand": true } ] }
+  ,{"keys": ["ctrl+alt+insert"], "command": "clear_fields", "context": [ { "key": "has_prev_field", "operator": "equal", "operand": true } ] }
+  ,{"keys": ["ctrl+alt+insert"], "command": "hide_panel", "args": {"cancel": true}, "context": [ { "key": "panel_visible", "operator": "equal", "operand": true } ] }
+  ,{"keys": ["ctrl+alt+insert"], "command": "hide_overlay", "context": [ { "key": "overlay_visible", "operator": "equal", "operand": true } ] }
+  ,{"keys": ["ctrl+alt+insert"], "command": "hide_auto_complete", "context": [ { "key": "auto_complete_visible", "operator": "equal", "operand": true } ] }
+
+
+  /* Overriding Tabs */
+  ,{ "keys": ["ctrl+insert"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} }
+  ,{ "keys": ["ctrl+insert"], "command": "insert_best_completion", "args": {"default": "\t", "exact": false} }
+  ,{ "keys": ["ctrl+insert"], "command": "replace_completion_with_next_completion", "context": [ { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" } ] }
+
+  ,{
+    "keys": [ "ctrl+insert" ],
+    "command": "expand_abbreviation_by_tab",
+    "context": [
+      {
+        "operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html, text.haml, text.scala.html, source string",
+        "operator": "equal", "match_all": true, "key": "selector"
+      },
+      {
+        "operand": "text.html source.php, text.html source.js, storage.type.templatetag.django",
+        "operator": "not_equal", "match_all": true, "key": "selector"
+      },
+      { "match_all": true, "key": "selection_empty" },
+      { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+      { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+      { "match_all": true, "key": "is_abbreviation" }
+    ]
+  }
+
+]
