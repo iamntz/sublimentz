@@ -2,6 +2,18 @@
 
   /* Emmet Keys */
   { "keys": [ "shift+ctrl+;" ], "args": { "action": "remove_tag" }, "command": "run_emmet_action" }
+
+  ,{ "keys": ["ctrl+shift+;"], "command": "bh_key",
+    "context": [ { "operand": "source.php, source.js, source.json, source.scss, source.css", "match_all": true, "key": "selector" } ],
+    "args": { "plugin": { "type": ["__all__"], "command": "bh_modules.bracketremove", "args" : { "remove_indent": true, "remove_block" : true } } }
+  }
+
+
+  ,{ "keys": ["ctrl+alt+shift+;"], "command": "bh_key",
+    "context": [ { "operand": "source.php, source.js, source.json, source.scss, source.css", "match_all": true, "key": "selector" } ],
+    "args": { "plugin": { "type": ["__all__"], "command": "bh_modules.bracketremove", "args" : { "remove_indent": false } } }
+  }
+
   ,{ "keys": [ "shift+ctrl+alt+=" ], "args": { "action": "evaluate_math_expression" }, "command": "run_emmet_action" }
   // ,{ "keys": [ "ctrl+e" ], "args": { "action": "expand_abbreviation" }, "command": "run_emmet_action" }
 

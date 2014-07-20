@@ -83,7 +83,7 @@
 		"cache*",
 		"assets/dist"
 	],
-	"font_face": "consolas",
+	"font_face": "Meslo LG M",
 	"font_options":
 	[
 		"subpixel_antialias"
@@ -94,14 +94,15 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Razor",
-		"SQL",
-		"LiveStyle",
-		"AutoFileName",
-		"Backbone.js",
-		".git",
 		"Markdown",
-		"Vintage"
+		"Backbone.js",
+		"SQL",
+		"Vintage",
+		"AutoFileName",
+		"LiveStyle",
+		"Sublimerge Pro",
+		".git",
+		"Razor"
 	],
 	"indent_guide_options":
 	[
@@ -112,8 +113,8 @@
 		"*.log"
 	],
 	"inverse_caret_state": false,
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
 	"move_to_limit_on_up_down": true,
 	"original_color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"overlay_scroll_bars": "enabled",

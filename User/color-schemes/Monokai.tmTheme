@@ -298,7 +298,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>italic bold</string>
 				<key>foreground</key>
 				<string>#A6E22E</string>
 			</dict>

@@ -6,7 +6,7 @@
          { "trigger": "t", "contents": "\\$this${2:->}" }
         ,{ "trigger": "doc", "contents": "/**" }
         ,{ "trigger": "pp", "contents": "print_r( $0 );" }
-        ,{ "trigger": "ppd", "contents": "echo '<pre>'; print_r( $0 ); echo '</pre>'; die();" }
+        ,{ "trigger": "ppd", "contents": "echo '<pre style=\"font-size:18px\">'; print_r( $0 ); echo '</pre>'; die();" }
         ,{ "trigger": "arr", "contents": "array( $0 )" }
         ,{ "trigger": "fore|foreach", "contents": "foreach( \\$${1:array_name} as \\$${3:${5:key} => \\$${10:value}} ){\n\t$0\n}" }
         ,{ "trigger": "g|gl|glo", "contents": "global ${1:\\$post};$0" }

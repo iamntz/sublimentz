@@ -1,10 +1,5 @@
 [
-  // Select text between brackets
-  { "keys": ["ctrl+shift+space"], "command": "bh_key", "args": { "lines" : true, "plugin": { "type": ["__all__"], "command": "bh_modules.bracketselect" } } }
-  ,{ "keys": ["ctrl+'"], "command": "bh_key", "args": { "lines" : true, "plugin": { "type": ["single_quote", "double_quote", "py_single_quote", "py_double_quote"], "command": "bh_modules.swapquotes" } } }
-  ,{ "keys": ["ctrl+shift+'"], "command": "swap_brackets" }
-
-  ,{ "keys": ["ctrl+i", "ctrl+8"],
+  { "keys": ["ctrl+i", "ctrl+8"],
     "command": "insert_snippet",
     "args": { "name": "Packages/ntz/WordPress/i8n.sublime-snippet" },
     "context" : [{
@@ -102,4 +97,12 @@
 
   ,{ "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" }
   ,{ "keys": ["ctrl+b"], "command": "simple_php_unit", "context": [ { "operand": "source.php", "match_all": true, "key": "selector" } ] }
+
+
+
+    // Select text between brackets
+    ,{ "keys": ["ctrl+shift+space"], "command": "bh_key", "args": { "lines" : true, "plugin": { "type": ["__all__"], "command": "bh_modules.bracketselect" } } }
+    ,{ "keys": ["ctrl+'"], "command": "bh_key", "args": { "lines" : true, "plugin": { "type": ["single_quote", "double_quote", "py_single_quote", "py_double_quote"], "command": "bh_modules.swapquotes" } } }
+    ,{ "keys": ["ctrl+shift+'"], "command": "swap_brackets" }
+    // ,{ "keys": ["ctrl+shift+q"], "command": "bh_remove_brackets" }
 ]
