@@ -94,14 +94,14 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Markdown",
+		"Vintage",
+		"Sublimerge Pro",
+		"LiveStyle",
 		"Backbone.js",
 		"SQL",
-		"Vintage",
-		"AutoFileName",
-		"LiveStyle",
-		"Sublimerge Pro",
 		".git",
+		"Markdown",
+		"AutoFileName",
 		"Razor"
 	],
 	"indent_guide_options":
