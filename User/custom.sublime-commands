@@ -15,4 +15,5 @@
   { "caption": "> [8] Autohotkey Restart", "command": "exec", "args" : { "cmd" : "C:\\Program Files\\AutoHotkey\\AutoHotkey.exe /restart" }  },
 
   { "caption": "> [9] Edit this config file", "command": "open_file", "args" : { "file" : "${packages}/User/custom.sublime-commands" } },
+
 ]

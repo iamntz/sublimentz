@@ -1,0 +1,8 @@
+{
+  // "autocomplete": true,
+  "opts" : [
+    "--exclude=.git",
+    "--exclude=.sass-cache",
+    "--exclude=node_modules",
+  ],
+}

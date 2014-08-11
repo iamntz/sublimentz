@@ -23,6 +23,7 @@
 				,"con" : "content:$1;$0"
 				,"bor" : "border:$1$2$3;$0"
 				,"tal" : "text-align:left;"
+				,"bc" : "border-color:$1;$0"
 			}
 		},
 		"html": {
@@ -45,9 +46,8 @@
 				"cc:ie7" : "<!--[if IE 7]>\n\t${child}|\n<![endif]-->"
 				,"cc:ie8" : "<!--[if IE 8]>\n\t${child}|\n<![endif]-->"
 				,"cc:ie9" : "<!--[if IE 9]>\n\t${child}|\n<![endif]-->"
-				// ,"p" : "<p>\n\t${child}|\n</p>"
 			},
-			"filters" : "html, c",
+			"filters" : "html",
 		}
 	},
 
