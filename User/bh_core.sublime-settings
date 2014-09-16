@@ -1,6 +1,6 @@
 {
     "search_threshold": 10000,
-    "bracket_outside_adjacent": true,
+    "bracket_outside_adjacent": false,
 
     "bracket_styles": {
         "default": {

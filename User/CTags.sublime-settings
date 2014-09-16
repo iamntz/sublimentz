@@ -4,5 +4,7 @@
     "--exclude=.git",
     "--exclude=.sass-cache",
     "--exclude=node_modules",
+    "--exclude=dist",
+    "--exclude=bower_components",
   ],
 }

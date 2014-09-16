@@ -1,0 +1,11 @@
+{
+    "cmd": ["node", "$file"],
+    "selector": "source.js",
+    "variants": [
+        {
+            "cmd": ["mongo --norc < $file"],
+            "name": "alt",
+            "shell": true
+        }
+    ]
+}

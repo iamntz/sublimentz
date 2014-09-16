@@ -1,0 +1,14 @@
+[
+  {
+    "command": "travel_to_pane",
+    "args": {
+      "direction": "left"
+    }
+  },
+  {
+    "args": {
+      "fraction": 0.9
+    },
+    "command": "zoom_pane"
+  }
+]

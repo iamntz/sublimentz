@@ -34,7 +34,7 @@
 
 
   ,{ "keys": ["ctrl+alt+z"], "command": "soft_undo" }
-  ,{ "keys": ["ctrl+shift+u"], "command": "soft_redo" }
+  ,{ "keys": ["ctrl+alt+shift+z"], "command": "soft_redo" }
 
   ,{ "keys": ["ctrl+shift+b"], "command": "build_selector" }
 
@@ -100,9 +100,17 @@
 
 
 
-    // Select text between brackets
-    ,{ "keys": ["ctrl+shift+space"], "command": "bh_key", "args": { "lines" : true, "plugin": { "type": ["__all__"], "command": "bh_modules.bracketselect" } } }
-    ,{ "keys": ["ctrl+'"], "command": "bh_key", "args": { "lines" : true, "plugin": { "type": ["single_quote", "double_quote", "py_single_quote", "py_double_quote"], "command": "bh_modules.swapquotes" } } }
-    ,{ "keys": ["ctrl+shift+'"], "command": "swap_brackets" }
-    // ,{ "keys": ["ctrl+shift+q"], "command": "bh_remove_brackets" }
+  // Select text between brackets
+  ,{ "keys": ["ctrl+shift+space"], "command": "bh_key", "args": { "lines" : true, "plugin": { "type": ["__all__"], "command": "bh_modules.bracketselect" } } }
+  ,{ "keys": ["ctrl+'"], "command": "bh_key", "args": { "lines" : true, "plugin": { "type": ["single_quote", "double_quote", "py_single_quote", "py_double_quote"], "command": "bh_modules.swapquotes" } } }
+  ,{ "keys": ["ctrl+shift+'"], "command": "swap_brackets" }
+
+  ,{ "keys": ["ctrl+k", "ctrl+1"], "command": "toggle_zoom_pane", "args": {"fraction": 0.95} }
+
+  ,{ "keys": ["ctrl+k", "ctrl+up"], "command": "travel_to_pane", "args": {"direction": "up"} }
+  ,{ "keys": ["ctrl+k", "ctrl+right"], "command": "travel_to_pane", "args": {"direction": "right"} }
+  ,{ "keys": ["ctrl+k", "ctrl+down"], "command": "travel_to_pane", "args": {"direction": "down"} }
+  ,{ "keys": ["ctrl+k", "ctrl+left"], "command": "travel_to_pane", "args": {"direction": "left"} }
+
+  ,{ "keys": ["alt+o"], "command": "jasmine_toggle", "args": {"split_view": true}, "context": [{ "key": "selector", "operator": "equal", "operand": "source.js, source.spec.js" }] }
 ]

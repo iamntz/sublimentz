@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+describe( "$1", function() {
+  beforeEach(function() {$10});
+  afterEach(function() {$11});
+
+  it( "$15", function() {
+    expect( $20 ).toBe( $25 );
+  } );
+});
+]]></content>
+  <tabTrigger>spec</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

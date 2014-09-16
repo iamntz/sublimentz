@@ -64,7 +64,14 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;=@include|@mixin)\s[a-zA-Z0-9_-]+</string>
+			<string>(?&lt;=@include)\s[a-zA-Z0-9_-]+</string>
+			<key>name</key>
+			<string>support.include.name.sass.compass</string>
+		</dict>
+
+		<dict>
+			<key>match</key>
+			<string>(?&lt;=@mixin)\s[a-zA-Z0-9_-]+</string>
 			<key>name</key>
 			<string>support.function.name.sass.compass</string>
 		</dict>

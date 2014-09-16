@@ -11,7 +11,7 @@
 	"aprosopo_dark_blue": true,
 	"aprosopo_dark_dirty_orange": true,
 	"aprosopo_dirty_bar": true,
-	"atomic_save": true,
+	"atomic_save": false,
 	"auto_close_tags": false,
 	"auto_complete": false,
 	"auto_complete_delay": 1000,
@@ -48,6 +48,8 @@
 	"fallback_encoding": "UTF-8",
 	"file_exclude_patterns":
 	[
+		".tags",
+		".tags_sorted_by_file",
 		"*.pyc",
 		"*.pyo",
 		"*.exe",
@@ -94,16 +96,18 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		".git",
-		"AutoFileName",
-		"SQL",
-		"LiveStyle",
-		"Sublimerge Pro",
-		"Vintage",
 		"Xdebug Client",
-		"Markdown",
+		"Vintage",
+		"LiveStyle",
 		"Razor",
-		"Backbone.js"
+		"Markdown",
+		"SQL",
+		"CursorRuler",
+		".git",
+		"Dictionaries",
+		"Sublimerge Pro",
+		"Backbone.js",
+		"AutoFileName"
 	],
 	"indent_guide_options":
 	[
@@ -119,6 +123,7 @@
 	"move_to_limit_on_up_down": true,
 	"original_color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"overlay_scroll_bars": "enabled",
+	"remember_full_screen": true,
 	"rulers":
 	[
 		120
