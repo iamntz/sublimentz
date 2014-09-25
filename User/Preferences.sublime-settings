@@ -96,18 +96,18 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Xdebug Client",
-		"Vintage",
-		"LiveStyle",
-		"Razor",
-		"Markdown",
-		"SQL",
-		"CursorRuler",
+		"AutoFileName",
 		".git",
+		"Xdebug Client",
 		"Dictionaries",
-		"Sublimerge Pro",
+		"Markdown",
+		"Razor",
+		"SQL",
+		"LiveStyle",
 		"Backbone.js",
-		"AutoFileName"
+		"Sublimerge Pro",
+		"Vintage",
+		"CursorRuler"
 	],
 	"indent_guide_options":
 	[
