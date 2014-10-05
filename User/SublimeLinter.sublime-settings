@@ -6,6 +6,8 @@
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Blueberry/cross/Blueberry - cross.gutter-theme",
         "gutter_theme_excludes": [],
         "lint_mode": "background",
+        "mark_style": "outline",
+        "no_column_highlights_line": false,
         "linters": {
             "csslint": {
                 "@disable": false,
@@ -64,7 +66,8 @@
             "html 5": "html",
             "html with mustache": "html",
             "php": "php",
-            "python django": "python"
+            "python django": "python",
+            "es6" : "javascript"
         },
         "warning_color": "CC000077",
         "wrap_find": true

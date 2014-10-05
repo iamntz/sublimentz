@@ -113,4 +113,5 @@
   ,{ "keys": ["ctrl+k", "ctrl+left"], "command": "travel_to_pane", "args": {"direction": "left"} }
 
   ,{ "keys": ["alt+o"], "command": "jasmine_toggle", "args": {"split_view": true}, "context": [{ "key": "selector", "operator": "equal", "operand": "source.js, source.spec.js" }] }
+
 ]

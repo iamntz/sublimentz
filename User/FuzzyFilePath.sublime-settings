@@ -1,0 +1,8 @@
+{
+  // disable automatic path completions
+  "disable_autocompletions": false,
+
+  // disable keymaps
+  "disable_keymap_actions": false,
+
+}

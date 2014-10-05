@@ -97,17 +97,17 @@
 	"ignored_packages":
 	[
 		"AutoFileName",
-		".git",
 		"Xdebug Client",
-		"Dictionaries",
+		"CursorRuler",
 		"Markdown",
-		"Razor",
-		"SQL",
-		"LiveStyle",
-		"Backbone.js",
-		"Sublimerge Pro",
+		".git",
+		"Dictionaries",
 		"Vintage",
-		"CursorRuler"
+		"Sublimerge Pro",
+		"SQL",
+		"Razor",
+		"TabsExtra",
+		"LiveStyle"
 	],
 	"indent_guide_options":
 	[
