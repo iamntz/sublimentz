@@ -96,17 +96,17 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"AutoFileName",
-		"Xdebug Client",
-		"CursorRuler",
-		"Markdown",
-		".git",
-		"Dictionaries",
-		"Vintage",
 		"Sublimerge Pro",
 		"SQL",
-		"Razor",
+		".git",
 		"TabsExtra",
+		"Dictionaries",
+		"AutoFileName",
+		"CursorRuler",
+		"Xdebug Client",
+		"Markdown",
+		"Razor",
+		"Vintage",
 		"LiveStyle"
 	],
 	"indent_guide_options":

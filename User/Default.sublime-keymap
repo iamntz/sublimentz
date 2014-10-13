@@ -114,4 +114,7 @@
 
   ,{ "keys": ["alt+o"], "command": "jasmine_toggle", "args": {"split_view": true}, "context": [{ "key": "selector", "operator": "equal", "operand": "source.js, source.spec.js" }] }
 
+  ,{ "keys": ["f10"], "command": "sublimelinter_goto_error", "args": {"direction": "next"} }
+  ,{ "keys": ["shift+f10"], "command": "sublimelinter_goto_error", "args": {"direction": "previous"} }
+  ,{ "keys": ["alt+f10"], "command": "sublimelinter_show_all_errors" }
 ]

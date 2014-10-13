@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[define( [ 'jquery', 'underscore', 'backbone' ], function( \$, _, Backbone ){
+  return {
+    $0
+  };
+});
+]]></content>
+  <tabTrigger>module</tabTrigger>
+  <description>Create a JS Module</description>
+  <scope>source.js</scope>
+</snippet>

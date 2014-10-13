@@ -1,15 +1,15 @@
 <snippet>
 	<content><![CDATA[Backbone.View.extend({
-	tagName: ''
-	,events: {
+	tagName: '',
+	events: {
 
-	}
+	},
 
-	,initialize: function(){
+	initialize: function(){
 
-	}
+	},
 
-	,render: function(){
+	render: function(){
 
 		return this;
 	}

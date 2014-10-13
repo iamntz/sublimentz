@@ -1,5 +1,5 @@
 <snippet>
- <content><![CDATA[${1/(s|st|sta|stat|stati|static)$|.*/?1:public /i}${1:[s]tatic/[p]ublic/[pr]otected/[pri]vate}${1/(s$)|(st$)|(sta$)|(stat$)|(stati$)|(p$)|(pu$)|(pub$)|(pr$)|(pro$)|(pri$)|.*/?1:tatic:?2:atic:?3:tic:?4:ic:?5:c:?6:ublic:?7:blic:?8:lic:?9:otected:?10:tected:?11:vate/i} function ${50:method}(${60: \$${65:foo}${70: = ${75:null}} }){
+ <content><![CDATA[${1/(s|st|sta|stat|stati|static)$|.*/?1:public /i}${1:[s]tatic/[p]ublic/[pr]otected/[pri]vate}${1/(s$)|(st$)|(sta$)|(stat$)|(stati$)|(p$)|(pu$)|(pub$)|(pr$)|(pro$)|(pri$)|.*/?1:tatic:?2:atic:?3:tic:?4:ic:?5:c:?6:ublic:?7:blic:?8:lic:?9:otected:?10:tected:?11:vate/i} function ${50:method}(${60: \$${65:foo}${70: = ${75:null}} })$80{
   ${65/.+/$this->$0 = \$$0;/}$0
 }]]></content>
   <tabTrigger>met</tabTrigger>
