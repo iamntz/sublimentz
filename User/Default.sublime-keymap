@@ -37,6 +37,8 @@
   ,{ "keys": ["ctrl+alt+shift+z"], "command": "soft_redo" }
 
   ,{ "keys": ["ctrl+shift+b"], "command": "build_selector" }
+  ,{ "keys": ["pause"], "command": "build" }
+
 
   ,{ "keys": ["ctrl+shift+tab"], "command": "prev_view" }
   ,{ "keys": ["super+`"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} }

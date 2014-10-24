@@ -96,18 +96,18 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Sublimerge Pro",
-		"SQL",
 		".git",
+		"SQL",
 		"TabsExtra",
-		"Dictionaries",
-		"AutoFileName",
+		"Sublimerge Pro",
 		"CursorRuler",
-		"Xdebug Client",
 		"Markdown",
+		"LiveStyle",
+		"AutoFileName",
+		"Dictionaries",
 		"Razor",
 		"Vintage",
-		"LiveStyle"
+		"Xdebug Client"
 	],
 	"indent_guide_options":
 	[
@@ -118,8 +118,8 @@
 		"*.log"
 	],
 	"inverse_caret_state": false,
-	"line_padding_bottom": 6,
-	"line_padding_top": 6,
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
 	"move_to_limit_on_up_down": true,
 	"original_color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"overlay_scroll_bars": "enabled",
