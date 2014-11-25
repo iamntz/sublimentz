@@ -11,7 +11,7 @@
 	"aprosopo_dark_blue": true,
 	"aprosopo_dark_dirty_orange": true,
 	"aprosopo_dirty_bar": true,
-	"atomic_save": false,
+	"atomic_save": true,
 	"auto_close_tags": false,
 	"auto_complete": false,
 	"auto_complete_delay": 1000,
@@ -96,18 +96,17 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		".git",
-		"SQL",
-		"TabsExtra",
-		"Sublimerge Pro",
 		"CursorRuler",
-		"Markdown",
-		"LiveStyle",
-		"AutoFileName",
-		"Dictionaries",
-		"Razor",
+		"SQL",
+		".git",
 		"Vintage",
-		"Xdebug Client"
+		"Sublimerge Pro",
+		"LiveStyle",
+		"Razor",
+		"Dictionaries",
+		"TabsExtra",
+		"AutoFileName",
+		"Markdown"
 	],
 	"indent_guide_options":
 	[

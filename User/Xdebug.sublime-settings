@@ -12,7 +12,7 @@
 
     // Maximum amount of nested levels to retrieve
     // of array elements and object properties.
-    "max_depth": 2,
+    "max_depth": 4,
 
     // Break at first line on session start, when debugger engine has connected.
     "break_on_start": false,

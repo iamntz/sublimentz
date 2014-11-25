@@ -1,18 +1,4 @@
 [
   { "caption": "|- [1] ConEmu (CMD)", "command": "exec", "args" : { "cmd" : "C:\\Program Files\\ConEmu\\ConEmu64.exe /Single /cmd {cmd}" }  },
-  { "caption": "|- [2] ConEmu (PowerShell)", "command": "exec", "args" : { "cmd" : "C:\\Program Files\\ConEmu\\ConEmu64.exe /Single" }  },
-  { "caption": "|- [3] ConEmu (CMD + PowerShell)", "command": "exec", "args" : {
-    "cmd" : "C:\\Program Files\\ConEmu\\ConEmu64.exe /cmdlist >powershell -cur_console:n ||| cmd -cur_console:s1TVn" }
-  },
-
-  { "caption": "|- [4] ConEmu (Grunt Watch + PowerShell)", "command": "exec", "args" : {
-    "cmd" : "C:\\Program Files\\ConEmu\\ConEmu64.exe /cmdlist >powershell -cur_console:n ||| grunt watch -cur_console:s1TVn" }
-  },
-
   { "caption": "|- [5] GitExtensions", "command": "exec", "args" : { "cmd" : "C:\\Program Files (x86)\\GitExtensions\\GitExtensions.exe" }  },
-
-  { "caption": "|- [7] ConEmu (Git Shell)", "command": "exec", "args" : { "cmd" : "C:\\Program Files\\ConEmu\\ConEmu64.exe /Single /cmd {gitbash}" }},
-  { "caption": "|- [8] Grunt watch", "command": "exec", "args" : {
-    "cmd" : "C:\\Program Files\\ConEmu\\ConEmu64.exe /cmdlist grunt dev -cur_console"
-  }},
 ]

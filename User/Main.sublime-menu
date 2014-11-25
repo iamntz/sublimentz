@@ -3,7 +3,7 @@
 
 
   {
-    "caption" : "💽",
+    "caption" : "☊",
     "command": "exec", "args" : { "cmd" : "C:\\Program Files\\ConEmu\\ConEmu64.exe /Single /cmd {cmd}" }
   },
 
@@ -24,4 +24,27 @@
     ]
   },
 
+
+  { "caption": "-----------", "id": "separator-99"},
+
+  {
+    "caption" : "➦",
+    "command": "xdebug_continue", "args": {"command": "step_over"}
+  },
+
+  {
+    "caption" : "↓",
+    "command": "xdebug_continue", "args": {"command": "step_into"}
+
+  },
+
+  {
+    "caption" : "↑",
+    "command": "xdebug_continue", "args": {"command": "step_out"}
+  },
+
+  {
+    "caption" : "▶",
+    "command": "xdebug_continue", "args": {"command": "run"}
+  }
 ]

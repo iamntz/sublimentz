@@ -1,4 +1,4 @@
 {
-  "shell_cmd": "cordova emulate android",
+  "shell_cmd": "cordova run android",
   "working_dir": "${project_path:${folder}}"
 }
