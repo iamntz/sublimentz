@@ -96,17 +96,17 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"CursorRuler",
-		"SQL",
 		".git",
-		"Vintage",
-		"Sublimerge Pro",
-		"LiveStyle",
 		"Razor",
-		"Dictionaries",
+		"Markdown",
+		"SQL",
+		"LiveStyle",
 		"TabsExtra",
-		"AutoFileName",
-		"Markdown"
+		"Sublimerge Pro",
+		"Dictionaries",
+		"CursorRuler",
+		"Vintage",
+		"AutoFileName"
 	],
 	"indent_guide_options":
 	[

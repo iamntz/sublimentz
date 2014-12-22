@@ -1,0 +1,24 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<phpunit
+  bootstrap="../vendor/autoload.php"
+  backupGlobals="false"
+  colors="false"
+  convertErrorsToExceptions="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"
+  >
+  <testsuites>
+    <testsuite>
+      <directory prefix="Test_" suffix=".php">../tests/</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>phpunitxml</tabTrigger>
+  <description></description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.xml, meta.tag.xml</scope>
+</snippet>

@@ -1,0 +1,8 @@
+{
+    "enabled": true,
+    // "style": "underlined_solid",
+    "icons": true,
+    // "ha_style": "filled",
+    "icons_all": true,
+    "default_keybindings": false,
+}
