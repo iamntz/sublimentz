@@ -1,0 +1,3 @@
+[submodule "SublimeAutoHotkey"]
+	path = SublimeAutoHotkey
+	url = git@github.com:ahkscript/SublimeAutoHotkey.git
