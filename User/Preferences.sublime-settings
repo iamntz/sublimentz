@@ -4,6 +4,7 @@
 		"=",
 		"-",
 		":",
+		"->",
 		"=>"
 	],
 	"alt_gr": true,
@@ -11,11 +12,10 @@
 	"aprosopo_dark_blue": true,
 	"aprosopo_dark_dirty_orange": true,
 	"aprosopo_dirty_bar": true,
-	"atomic_save": true,
+	"atomic_save": false,
 	"auto_close_tags": false,
-	"auto_complete": false,
-	"auto_complete_delay": 1000,
-	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin, source, text",
+	"auto_complete": true,
+	"auto_complete_delay": 500,
 	"auto_find_in_selection": true,
 	"auto_id_class": true,
 	"binary_file_patterns":
@@ -90,23 +90,23 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		".git",
-		"Razor",
-		"Markdown",
-		"SQL",
-		"LiveStyle",
-		"TabsExtra",
-		"Sublimerge Pro",
-		"Dictionaries",
-		"CursorRuler",
 		"Vintage",
-		"AutoFileName"
+		".git",
+		"Dictionaries",
+		"Sublimerge Pro",
+		"TabsExtra",
+		"AutoFileName",
+		"LiveStyle",
+		"Markdown",
+		"Razor",
+		"SQL",
+		"CursorRuler"
 	],
 	"indent_guide_options":
 	[
@@ -117,15 +117,15 @@
 		"*.log"
 	],
 	"inverse_caret_state": false,
-	"line_padding_bottom": 4,
-	"line_padding_top": 4,
+	"line_padding_bottom": 6,
+	"line_padding_top": 6,
 	"move_to_limit_on_up_down": true,
 	"original_color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"overlay_scroll_bars": "enabled",
 	"remember_full_screen": true,
 	"rulers":
 	[
-		120
+		100
 	],
 	"shift_tab_unindent": true,
 	"show_line_endings": true,

@@ -1,4 +1,7 @@
 {
+	"in_process_packages":
+	[
+	],
 	"install_prereleases": true,
 	"installed_packages":
 	[
@@ -29,11 +32,12 @@
 		"ImprovedSQL",
 		"Inc-Dec-Value",
 		"INI",
-		"Jasmine BDD",
+		"Jasmine JS",
 		"Laravel Blade Highlighter",
 		"LineEndings",
 		"LiveStyle",
 		"MarkdownEditing",
+		"nginx",
 		"Origami",
 		"Package Control",
 		"PackageResourceViewer",
@@ -50,9 +54,9 @@
 		"SublimeGit",
 		"SublimeLinter-jshint",
 		"Sublimerge Pro",
-		"SublimeTODO",
 		"SublimeWordPressCodex",
 		"Theme - Soda",
+		"TodoReview",
 		"TrailingSpaces",
 		"Twig",
 		"WakaTime",
@@ -75,6 +79,7 @@
 		"https://github.com/guillermooo/Vintageous.git",
 		"https://github.com/skyronic/Gobble",
 		"https://github.com/akalongman/sublimetext-stringutilities/tree/ST3",
-		"https://github.com/welovewordpress/SublimeWordPressCodex"
+		"https://github.com/welovewordpress/SublimeWordPressCodex",
+		"https://sublime.wbond.net/prerelease/packages.json"
 	]
 }
