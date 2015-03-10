@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>general</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>SPACE_OR_NEWLINE</string>
+				<key>value</key>
+				<string><![CDATA[
+]]></string>
+			</dict>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>1b6966d4-c369-11e4-8dfc-aa07a5b093db</string>
+</dict>
+</plist>

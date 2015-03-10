@@ -1,11 +1,11 @@
 <snippet>
-    <content><![CDATA[class ${1:${TM_FILENAME/(.+)\..+/$1/}}${5: extends ${15:AnotherClass}} {
+		<content><![CDATA[class ${1:${TM_FILENAME/(.+)\..+/$1/}}${5: extends ${15:AnotherClass}} {
 	function __construct(${20:argument}) {
 		${0:# code...}
 	}
 }
 ]]></content>
-    <tabTrigger>class</tabTrigger>
-    <scope>source.php</scope>
-    <description>class …</description>
+		<tabTrigger>class</tabTrigger>
+		<scope>source.php</scope>
+		<description>class …</description>
 </snippet>

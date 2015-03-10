@@ -1,15 +1,15 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+	<content><![CDATA[
 class ${1:${TM_FILENAME/(.+)\..+/$1/}} extends PHPUnit_Framework_TestCase {
-  public function setUp(){}
-  public function tearDown(){}
-  $10
+	public function setUp(){}
+	public function tearDown(){}
+	$10
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>phpu</tabTrigger>
-  <description>PHPUnit_Framework_TestCase</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>phpu</tabTrigger>
+	<description>PHPUnit_Framework_TestCase</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html, source.php</scope>
 </snippet>

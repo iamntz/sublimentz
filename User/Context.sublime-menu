@@ -1,4 +1,5 @@
 [
-  { "command": "jump_back", "caption": "Jump Back" }
-  ,{ "command": "jump_forward", "caption": "Jump Forward" }
+  { "command": "jump_back", "caption": "Jump Back" },
+  { "command": "jump_forward", "caption": "Jump Forward" },
+  { "command": "color_helper", "caption": "Color Helper" },
 ]

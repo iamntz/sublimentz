@@ -1,4 +1,11 @@
 {
+	"__theme": "Cobalt2.sublime-theme",
+	"added_words":
+	[
+		"Switcheroo",
+		"Envato",
+		"blog"
+	],
 	"alignment_chars":
 	[
 		"=",
@@ -14,7 +21,9 @@
 	"aprosopo_dirty_bar": true,
 	"atomic_save": false,
 	"auto_close_tags": false,
-	"auto_complete": true,
+	"auto_complete": false,
+	"auto_complete_commit_on_tab": false,
+	"auto_complete_cycle": true,
 	"auto_complete_delay": 500,
 	"auto_find_in_selection": true,
 	"auto_id_class": true,
@@ -41,7 +50,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"default_line_ending": "unix",
 	"enable_emmet_keymap": false,
 	"fade_fold_buttons": false,
@@ -90,23 +99,24 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignored_packages":
 	[
+		"SmartColorPicker",
+		"Markdown",
 		"Vintage",
+		"LineEndings",
+		"Razor",
 		".git",
 		"Dictionaries",
+		"Color Highlighter",
+		"Intellitip",
 		"Sublimerge Pro",
-		"TabsExtra",
-		"AutoFileName",
-		"LiveStyle",
-		"Markdown",
-		"Razor",
 		"SQL",
-		"CursorRuler"
+		"ScopeHunter"
 	],
 	"indent_guide_options":
 	[

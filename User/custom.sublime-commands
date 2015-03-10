@@ -1,4 +1,5 @@
 [
+  { "caption": "> Indent", "command": "change_indent_style" },
   { "caption": "> Gist", "command": "private_gist_from_selection" },
 
   { "caption": "> [1] Apache: Restart", "command": "exec", "args" : { "cmd" : "C:\\xampp\\apache\\bin\\httpd.exe -k restart" }  },

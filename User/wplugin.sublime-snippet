@@ -1,0 +1,31 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+/*
+Plugin Name: $1
+Plugin URI: $5
+Description: $10
+Author: Ionuț Staicu
+Version: 1.0.0
+Author URI: http://ionutstaicu.com
+*/
+
+if ( !defined( 'ABSPATH' ) ) exit;
+
+load_plugin_textdomain( '${40:Text Domain}', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
+
+require_once( 'vendor/autoload.php' );
+
+define( '${50:PLUGIN_NAME}_VERSION', '0.0.4' );
+
+define( '$50_BASEFILE', __FILE__ );
+define( '$50_PATH', plugin_dir_url( __FILE__ ) );
+define( '$50_URL', plugin_dir_path( __FILE__ ) );
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>wplugin</tabTrigger>
+  <description>WP Plugin Boilerplate</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

@@ -1,9 +1,9 @@
 <snippet>
- <content><![CDATA[${1/(s|st|sta|stat|stati|static)$|.*/?1:public /i}${1:[s]tatic/[p]ublic/[pr]otected/[pri]vate}${1/(s$)|(st$)|(sta$)|(stat$)|(stati$)|(p$)|(pu$)|(pub$)|(pr$)|(pro$)|(pri$)|.*/?1:tatic:?2:atic:?3:tic:?4:ic:?5:c:?6:ublic:?7:blic:?8:lic:?9:otected:?10:tected:?11:vate/i} function ${50:method}($60)$80{
-  $0
+	<content><![CDATA[${1/(s|st|sta|stat|stati|static)$|.*/?1:public /i}${1:[s]tatic/[p]ublic/[pr]otected/[pri]vate}${1/(s$)|(st$)|(sta$)|(stat$)|(stati$)|(p$)|(pu$)|(pub$)|(pr$)|(pro$)|(pri$)|.*/?1:tatic:?2:atic:?3:tic:?4:ic:?5:c:?6:ublic:?7:blic:?8:lic:?9:otected:?10:tected:?11:vate/i} function ${50:method}($60)$LSL_SPACE_OR_NEWLINE{
+	$0
 }]]></content>
-  <tabTrigger>met</tabTrigger>
-  <scope>source.php</scope>
+	<tabTrigger>met</tabTrigger>
+	<scope>source.php</scope>
 </snippet>
 <!--
 https://www.sublimetext.com/forum/viewtopic.php?f=2&t=7858#p40213

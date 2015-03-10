@@ -42,6 +42,7 @@
 
   ,{ "keys": ["ctrl+shift+tab"], "command": "prev_view" }
   ,{ "keys": ["super+`"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} }
+  ,{ "keys": ["super+shift+`"], "command": "open_dir", "args": {"dir": "$project_path" } }
   ,{ "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false} }
   ,{ "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} }
 
