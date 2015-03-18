@@ -1,6 +1,8 @@
 {
+	"ignore_vcs_packages": true,
 	"in_process_packages":
 	[
+		"CoffeeScript"
 	],
 	"install_prereleases": true,
 	"installed_packages":

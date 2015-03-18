@@ -1,0 +1,9 @@
+{
+    "supported_syntax": [
+        "meta.property-value.css -comment",       // CSS, CSS in HTML etc.
+        "meta.value.css -comment",                // CSS3, CSS3 in HTML etc.,
+        "meta.property-list.css.sass -comment -string",      // sass and scss
+        "sass-script-maps -variable.other -comment -string", // sass script maps
+        "meta.tag.inline.any.html string.quoted" // HTML attributes
+    ]
+}

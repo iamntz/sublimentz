@@ -105,18 +105,20 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"SmartColorPicker",
-		"Markdown",
-		"Vintage",
-		"LineEndings",
-		"Razor",
 		".git",
-		"Dictionaries",
 		"Color Highlighter",
+		"ColorHelper",
+		"Dictionaries",
 		"Intellitip",
-		"Sublimerge Pro",
+		"LineEndings",
+		"Markdown",
+		"Razor",
+		"ScopeHunter",
+		"SmartColorPicker",
 		"SQL",
-		"ScopeHunter"
+		"Sublimerge Pro",
+		"Vintage",
+		"CoffeeScript"
 	],
 	"indent_guide_options":
 	[
