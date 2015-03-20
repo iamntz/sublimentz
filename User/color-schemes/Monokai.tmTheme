@@ -172,6 +172,71 @@
 				<string>#E6DB74</string>
 			</dict>
 		</dict>
+
+		<!-- Custom -->
+		<dict>
+			<key>name</key>
+			<string>♦ String.regexp</string>
+			<key>scope</key>
+			<string>string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#75D1A6</string>
+			</dict>
+		</dict>
+		<!-- Custom -->
+		<dict>
+			<key>name</key>
+			<string>♦ String.regexp characterclass</string>
+			<key>scope</key>
+			<string>string.regexp.characterclass</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF602028</string>
+			</dict>
+		</dict>
+		<!-- Custom -->
+		<dict>
+			<key>name</key>
+			<string>♦ String.regexp character class bounds</string>
+			<key>scope</key>
+			<string>string.regexp.characterclass punctuation.definition.string.begin, string.regexp.characterclass punctuation.definition.string.end</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFF00</string>
+			</dict>
+		</dict>
+		<!-- Custom -->
+		<dict>
+			<key>name</key>
+			<string>♦ String.regexp escape</string>
+			<key>scope</key>
+			<string>string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E9FFCC</string>
+			</dict>
+		</dict>
+		<!-- Custom -->
+		<dict>
+			<key>name</key>
+			<string>♦ String.regexp operator</string>
+			<key>scope</key>
+			<string>string.regexp regexp-operator, string.regexp.characterclass punctuation.definition.string.begin, string.regexp.characterclass punctuation.definition.string.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DA725D</string>
+			</dict>
+		</dict>
+
+
 		<dict>
 			<key>name</key>
 			<string>Number</string>
@@ -238,6 +303,23 @@
 				<string>#F92672</string>
 			</dict>
 		</dict>
+
+		<!-- Custom -->
+		<dict>
+			<key>name</key>
+			<string>Bitwise</string>
+			<key>scope</key>
+			<string>bitwise-operator</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#6483F2</string>
+			</dict>
+		</dict>
+
+
 		<dict>
 			<key>name</key>
 			<string>Storage</string>

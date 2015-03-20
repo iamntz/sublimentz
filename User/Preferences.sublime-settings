@@ -42,7 +42,9 @@
 		"*.swf",
 		"*.jar",
 		"*.zip",
-		"*.psd"
+		"*.psd",
+		"node_modules/",
+		".git/"
 	],
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 2,
@@ -105,20 +107,20 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Markdown",
-		"ColorHelper",
-		"Intellitip",
+		".git",
 		"Color Highlighter",
-		"SmartColorPicker",
-		"LineEndings",
-		"Vintage",
-		"Razor",
-		"Sublimerge Pro",
-		"ScopeHunter",
+		"ColorHelper",
 		"Dictionaries",
+		"Intellitip",
+		"LineEndings",
+		"Markdown",
+		"Razor",
+		"ScopeHunter",
+		"SmartColorPicker",
 		"SQL",
-		"CoffeeScript",
-		".git"
+		"Sublimerge Pro",
+		"Vintage",
+		"CoffeeScript"
 	],
 	"indent_guide_options":
 	[
