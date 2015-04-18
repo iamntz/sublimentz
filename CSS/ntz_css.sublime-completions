@@ -102,7 +102,9 @@
     /* various & unsorted */
     { "trigger": "o|ou", "contents": "outline:${1:none};$0" },
     { "trigger": "op|opac|opacity", "contents": "filter:alpha(opacity=$1${2});\nopacity:${1:.5};$0" },
-    { "trigger": "ani|trans|transition", "contents": "-webkit-transition:${1:all} 0.${2:3s} ease;\n-moz-transition:${1:all} 0.${2:3s} ease;\n-o-transition:${1:all} 0.${2:3s} ease;\ntransition:${1:all } 0.${2:3s} ease;$0" },
+    { "trigger": "ani|trans|transition", "contents": "transition:${1:all } 0.${2:3s} ease;$0" },
+    { "trigger": "translate", "contents": "transform:translate($1, $5);" },
+    { "trigger": "translate3d", "contents": "transform:translate3d($1, $5, $10);" },
     { "trigger": "cur", "contents": "cursor:${1:pointer};$0" },
     { "trigger": "ts", "contents": "text-shadow:$1px $2px $3px #$4;$0" },
     { "trigger": "va", "contents": "vertical-align:${1:[T]op/[B]ottom/[M]iddle/[Ba]seline/[Te]xt-bottom/[Tex]t-top/[S]ub/[Su]per}${1/(t$)|(b$)|(m$)|(ba$)|(te$)|(tex$)|(s$)|(su$)|(st$)|.*/?1:op:?2:ottom:?3:iddle:?4:seline:?5:xt-bottom:?6:t-top:?7:ub:?8:per/i};$0" },

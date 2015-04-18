@@ -21,8 +21,7 @@
 	"aprosopo_dirty_bar": true,
 	"atomic_save": false,
 	"auto_close_tags": false,
-	"auto_complete": false,
-	"auto_complete_commit_on_tab": false,
+	"auto_complete": true,
 	"auto_complete_cycle": true,
 	"auto_complete_delay": 500,
 	"auto_find_in_selection": true,
@@ -44,12 +43,13 @@
 		"*.zip",
 		"*.psd",
 		"node_modules/",
-		".git/"
+		".git/",
+		"vendor/"
 	],
 	"bold_folder_labels": true,
-	"caret_extra_bottom": 2,
-	"caret_extra_top": 2,
-	"caret_extra_width": 2,
+	"caret_extra_bottom": 4,
+	"caret_extra_top": 4,
+	"caret_extra_width": 5,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
@@ -92,9 +92,8 @@
 		"CVS",
 		".sass-cache",
 		".idea",
-		"node_modules",
 		"cache*",
-		"assets/dist"
+		"__assets/dist"
 	],
 	"font_face": "InputMono Medium",
 	"font_options":
@@ -102,6 +101,7 @@
 		"subpixel_antialias"
 	],
 	"font_size": 14,
+	"fp_basic": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": true,

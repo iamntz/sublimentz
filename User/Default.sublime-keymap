@@ -17,6 +17,7 @@
 
 
   ,{ "keys": ["f1"], "command": "side_bar_rename" }
+  ,{ "keys": ["ctrl+k", "ctrl+f8"], "command": "feature_presentation" }
   ,{ "keys": ["alt+shift+delete"], "command": "side_bar_delete" }
   ,{ "keys": ["ctrl+t"], "command": "side_bar_new_file2" }
   ,{ "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" }

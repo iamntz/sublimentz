@@ -17,4 +17,7 @@
 
   { "caption": "> [9] Edit this config file", "command": "open_file", "args" : { "file" : "${packages}/User/custom.sublime-commands" } },
 
+  { "caption": "Make Sass Partial", "command": "make_sass_partial" },
+  { "caption": "Feature Presentation", "command": "feature_presentation" },
+
 ]

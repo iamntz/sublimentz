@@ -8,9 +8,9 @@
         ,{ "trigger": "pp", "contents": "print_r( $0 );" }
         ,{ "trigger": "ppd", "contents": "echo '<pre style=\"font-size:18px\">'; print_r( $0 ); echo '</pre>'; die();" }
         ,{ "trigger": "arr", "contents": "array( $0 )" }
-        ,{ "trigger": "fore|foreach", "contents": "foreach( \\$${1:array_name} as \\$${3:${5:key} => \\$${10:value}} ){\n\t$0\n}" }
-        ,{ "trigger": "g|gl|glo", "contents": "global ${1:\\$post};$0" }
-        ,{ "trigger": "hjson", "contents": "header('Content-Type: application/json');\n" }
+        ,{ "trigger": "fore", "contents": "foreach( \\$${1:array_name} as \\$${3:${5:key} => \\$${10:value}} ){\n\t$0\n}" }
+        ,{ "trigger": "g", "contents": "global ${1:\\$post};$0" }
+        ,{ "trigger": "jsonhead", "contents": "header('Content-Type: application/json');\n" }
 
 
     ,{ "trigger": "wpconf", "contents": "\\$ntz_site_url = 'http://${1:domain.com}/';\ndefine( 'WP_SITEURL', \\$ntz_site_url );\ndefine( 'WP_HOME', \\$ntz_site_url );\ndefine( 'WP_CONTENT_URL', \\$ntz_site_url.'/wp-content' );\ndefine( 'WP_PLUGIN_URL', \\$ntz_site_url.'/wp-content/plugins' );"}
@@ -24,10 +24,11 @@
     ,{ "trigger": "wp_register_style", "contents": "wp_register_style( '${1:handle}', '${2:src}', array(${3:deps}), '${4:version}', '${5:screen}' );$0" }
     ,{ "trigger": "wp_register_script", "contents": "wp_register_script( '${1:handle}', '${2:src}', array(${3:deps}), '${4:version}', '${5:true}' );$0" }
 
-    ,{ "trigger": "wpenq|wp_enqueue_script|wp_enqueue_style", "contents": "wp_enqueue_s${5:[t]yle/[c]ript}${5/(t$)|(c$)|.*/?1:yle:?2:ript/i}( '${10:handle}' );$0" }
+    ,{ "trigger": "wp_enqueue_style", "contents": "wp_enqueue_style( '${10:handle}' );$0" }
+    ,{ "trigger": "wp_enqueue_script", "contents": "wp_enqueue_script( '${10:handle}' );$0" }
 
-    ,{ "trigger": "adda|add_action", "contents": "add_action( '${1:hook name}', ${5:callbak} );$0" }
-    ,{ "trigger": "appl|apply_filters", "contents": "apply_filters( '${1:filter name}', \\$${5:string} );$0" }
+    ,{ "trigger": "add_action", "contents": "add_action( '${1:hook name}', ${5:callbak} );$0" }
+    ,{ "trigger": "apply_filters", "contents": "apply_filters( '${1:filter name}', \\$${5:string} );$0" }
     ,{ "trigger": "prf|prif|printf", "contents": "printf( '$0' );" }
     ,{ "trigger": "_re", "contents": "_REQUEST" }
 
