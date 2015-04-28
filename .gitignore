@@ -6,6 +6,9 @@
 !HTML
 !HTML/**/*
 !HTML/*
+!HTML2
+!HTML2/**/*
+!HTML2/*
 
 !SCSS
 !SCSS/**/*

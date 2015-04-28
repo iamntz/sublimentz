@@ -6,8 +6,6 @@
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Blueberry/cross/Blueberry - cross.gutter-theme",
         "gutter_theme_excludes": [],
         "lint_mode": "background",
-        "mark_style": "outline",
-        "no_column_highlights_line": false,
         "linters": {
             "csslint": {
                 "@disable": false,
@@ -46,6 +44,7 @@
         },
         "mark_style": "stippled underline",
         "no_column_highlights_line": false,
+        "passive_warnings": false,
         "paths": {
             "linux": [],
             "osx": [],
@@ -61,13 +60,13 @@
         "show_errors_on_save": false,
         "show_marks_in_minimap": true,
         "syntax_map": {
+            "es6": "javascript",
             "html (django)": "html",
             "html (rails)": "html",
             "html 5": "html",
             "html with mustache": "html",
             "php": "php",
-            "python django": "python",
-            "es6" : "javascript"
+            "python django": "python"
         },
         "warning_color": "CC000077",
         "wrap_find": true
