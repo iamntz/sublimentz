@@ -100,7 +100,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 15,
 	"fp_basic": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -110,8 +110,8 @@
 		".git",
 		"Color Highlighter",
 		"ColorHelper",
+		"CSS Extended Completions",
 		"Dictionaries",
-		"HTML",
 		"Intellitip",
 		"LineEndings",
 		"Markdown",
@@ -119,9 +119,11 @@
 		"ScopeHunter",
 		"SmartColorPicker",
 		"SQL",
+		"SublimeLinter",
 		"Sublimerge Pro",
 		"Vintage",
-		"CoffeeScript"
+		"CoffeeScript",
+		"PHP"
 	],
 	"indent_guide_options":
 	[

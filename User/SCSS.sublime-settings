@@ -10,9 +10,9 @@
 	],
 	"extensions":
 	[
-		"scss",
 		"scss.erb",
 		"scss",
-		"css"
+		"css",
+		"scss"
 	]
 }

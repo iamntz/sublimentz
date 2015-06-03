@@ -39,6 +39,6 @@ class MakeSassPartialCommand(sublime_plugin.TextCommand):
         v = self.view.window().find_open_file(filename)
         if v:
             v.retarget(renamedFile)
-            self.view.set_syntax_file( 'Packages/Sass/Syntaxes/SCSS.tmLanguage' )
+            self.view.set_syntax_file( 'Packages/Sass/SCSS.tmLanguage' )
     except Exception as e :
         sublime.status_message("Unable to rename: " + str(e))
