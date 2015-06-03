@@ -30,6 +30,10 @@
 !php/*
 !php/**/*
 
+!PHP Ntz
+!PHP Ntz/*
+!PHP Ntz/**/*
+
 !.gitignore
 
 !readme.md

@@ -115,6 +115,7 @@
 		"Intellitip",
 		"LineEndings",
 		"Markdown",
+		"PHP",
 		"Razor",
 		"ScopeHunter",
 		"SmartColorPicker",
@@ -122,8 +123,7 @@
 		"SublimeLinter",
 		"Sublimerge Pro",
 		"Vintage",
-		"CoffeeScript",
-		"PHP"
+		"CoffeeScript"
 	],
 	"indent_guide_options":
 	[

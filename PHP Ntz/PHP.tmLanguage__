@@ -18,7 +18,7 @@
 	<key>foldingStopMarker</key>
 	<string>(\*/|^\s*\}|^HTML;)</string>
 	<key>name</key>
-	<string>PHPNtz</string>
+	<string>PHP Ntz</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -3735,6 +3735,6 @@
 	<key>scopeName</key>
 	<string>source.php</string>
 	<key>uuid</key>
-	<string>22986475-8CA5-11D9-AEDD-000D93C8BE98</string>
+	<string>22986475-8CA5-11D9-AEDD-000D93D8BF98</string>
 </dict>
 </plist>
