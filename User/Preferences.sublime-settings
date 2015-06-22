@@ -52,7 +52,7 @@
 	"caret_extra_width": 5,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/color-schemes/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"enable_emmet_keymap": false,
 	"fade_fold_buttons": false,
@@ -98,32 +98,33 @@
 	"font_face": "InputMono Medium",
 	"font_options":
 	[
-		"subpixel_antialias"
+		"gray_antialias"
 	],
-	"font_size": 15,
+	"font_size": 16,
 	"fp_basic": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		".git",
-		"Color Highlighter",
-		"ColorHelper",
-		"CSS Extended Completions",
-		"Dictionaries",
-		"Intellitip",
-		"LineEndings",
-		"Markdown",
-		"PHP",
-		"Razor",
-		"ScopeHunter",
-		"SmartColorPicker",
-		"SQL",
+		"Vintageous",
 		"SublimeLinter",
-		"Sublimerge Pro",
+		"SmartColorPicker",
+		"PHP",
 		"Vintage",
-		"CoffeeScript"
+		"Intellitip",
+		"CSS Extended Completions",
+		"Color Highlighter",
+		"SQL",
+		"Dictionaries",
+		"Markdown",
+		"CoffeeScript",
+		"Razor",
+		"ColorHelper",
+		"LineEndings",
+		"ScopeHunter",
+		"Sublimerge Pro",
+		".git"
 	],
 	"indent_guide_options":
 	[
@@ -137,7 +138,6 @@
 	"line_padding_bottom": 6,
 	"line_padding_top": 6,
 	"move_to_limit_on_up_down": true,
-	"original_color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"overlay_scroll_bars": "enabled",
 	"remember_full_screen": true,
 	"rulers":
