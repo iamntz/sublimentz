@@ -107,24 +107,25 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
+		".git",
+		"ScopeHunter",
+		"php-grammar",
+		"Sublimerge Pro",
+		"Color Highlighter",
+		"PHP Companion",
+		"Razor",
+		"Markdown",
 		"Vintageous",
-		"SublimeLinter",
+		"SQL",
 		"SmartColorPicker",
-		"PHP",
-		"Vintage",
+		"SublimeLinter",
 		"Intellitip",
 		"CSS Extended Completions",
-		"Color Highlighter",
-		"SQL",
 		"Dictionaries",
-		"Markdown",
 		"CoffeeScript",
-		"Razor",
 		"ColorHelper",
-		"LineEndings",
-		"ScopeHunter",
-		"Sublimerge Pro",
-		".git"
+		"Vintage",
+		"LineEndings"
 	],
 	"indent_guide_options":
 	[
