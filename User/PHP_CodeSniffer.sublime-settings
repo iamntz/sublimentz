@@ -1,0 +1,10 @@
+{
+    "run_on_save": false,
+    "php_path": "",
+    "phpcs_path": "phpcs",
+    "phpcbf_path": "phpcbf",
+    "phpcs_standard": "Squiz",
+    "error_scope": "comment.block",
+    "warning_scope": "function",
+    "additional_args": []
+}

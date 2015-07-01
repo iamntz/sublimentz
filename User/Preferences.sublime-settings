@@ -1,5 +1,4 @@
 {
-	"__theme": "Cobalt2.sublime-theme",
 	"added_words":
 	[
 		"Switcheroo",
@@ -42,7 +41,6 @@
 		"*.jar",
 		"*.zip",
 		"*.psd",
-		"node_modules/",
 		".git/",
 		"vendor/"
 	],
@@ -52,7 +50,7 @@
 	"caret_extra_width": 5,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/color-schemes/Monokai.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"default_line_ending": "unix",
 	"enable_emmet_keymap": false,
 	"fade_fold_buttons": false,
@@ -81,7 +79,8 @@
 		"*.psd",
 		"*.db",
 		"*.sublime-workspace",
-		"*.sublime-project"
+		"*.sublime-project",
+		"node_modules"
 	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
@@ -107,28 +106,27 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		".git",
-		"ScopeHunter",
-		"php-grammar",
-		"Sublimerge Pro",
-		"Color Highlighter",
-		"PHP Companion",
 		"Razor",
-		"Markdown",
+		"Sublimerge Pro",
+		"ScopeHunter",
+		".git",
 		"Vintageous",
-		"SQL",
+		"php-grammar",
 		"SmartColorPicker",
-		"SublimeLinter",
 		"Intellitip",
-		"CSS Extended Completions",
-		"Dictionaries",
-		"CoffeeScript",
-		"ColorHelper",
 		"Vintage",
-		"LineEndings"
+		"ColorHelper",
+		"CSS Extended Completions",
+		"SQL",
+		"Color Highlighter",
+		"Markdown",
+		"Dictionaries",
+		"LineEndings",
+		"CoffeeScript"
 	],
 	"indent_guide_options":
 	[
+		"draw_normal",
 		"draw_active"
 	],
 	"index_exclude_patterns":
