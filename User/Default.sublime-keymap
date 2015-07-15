@@ -101,7 +101,7 @@
   }
 
   ,{ "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" }
-  ,{ "keys": ["ctrl+b"], "command": "simple_php_unit", "context": [ { "operand": "source.php", "match_all": true, "key": "selector" } ] }
+  // ,{ "keys": ["ctrl+b"], "command": "simple_php_unit", "context": [ { "operand": "source.php", "match_all": true, "key": "selector" } ] }
 
 
 

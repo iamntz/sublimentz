@@ -1,0 +1,19 @@
+{
+	"format_on_save": false,
+	"indent_with_space": false,
+	"excludes" : [
+		"PSR2IndentWithSpace"
+	],
+	"passes":
+	[
+		// "AllmanStyleBraces",
+		// "AlignEquals",
+		// "AlignGroupDoubleArrow"
+	],
+	"php_bin": "C:\\xampp\\php5.6\\php.exe",
+	"psr2": true,
+	"debug": true,
+	"psr1_naming": false,
+	"version": 3,
+	"smart_linebreak_after_curly" : true,
+}

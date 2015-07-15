@@ -8,6 +8,7 @@
 	[
 		"AlignTab",
 		"ApacheConf.tmLanguage",
+		"Autoprefixer",
 		"BracketHighlighter",
 		"BufferScroll",
 		"Case Conversion",
@@ -35,6 +36,7 @@
 		"Package Control",
 		"PackageResourceViewer",
 		"PHP Companion",
+		"phpfmt",
 		"PHPUnit Completions",
 		"PlainTasks",
 		"Razor",
@@ -46,6 +48,7 @@
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
 		"Sublimerge Pro",
+		"testNameGenerator",
 		"Theme - Soda",
 		"TodoReview",
 		"TrailingSpaces",

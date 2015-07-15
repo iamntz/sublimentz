@@ -1,0 +1,4 @@
+{
+    "filename_filter": "\\.(php)$",
+    "build_on_save": 0
+}
